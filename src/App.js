@@ -8,7 +8,7 @@ import Portfolio from './components/pages/Portfolio';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Route exact path="/" component={Landing} />
           <Route exact path="/portfolio" component={Portfolio} />
