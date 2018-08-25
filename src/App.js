@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Landing from './components/pages/Landing';
+import Home from './components/home/Home';
 import Portfolio from './components/pages/Portfolio';
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
-          <Route exact path="/" component={Landing} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
         </div>
       </BrowserRouter>
