@@ -32,8 +32,8 @@
 .my-button {
   font-size: 1.6rem;
   width: 250px;
-  padding: 5px 0px;
-  text-align: center;
+  padding: 5x 0px;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
   z-index: 2;
@@ -64,7 +64,21 @@
   width: 100%;
   transition: var(--trans-standard);
 }
-
+/* ICONS */
+.icon {
+  font-size: 4rem;
+}
+/* ABOUT */
+.about-page {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-card {
+  border: 1px solid black;
+  max-width: 300px;
+}
 /* MEDIA QUERIES: CONTAINERS */
 @media (min-width: 1200px) {
   .container {
