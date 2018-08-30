@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 export default () => {
   return (
-    <div className="half-page About-BG">
+    <div className="About-BG">
       <Container className="about-page">
         <Row className="text-center">
           <Col lg="4" className="py-5">
@@ -18,7 +18,7 @@ export default () => {
             <i class="icon fas fa-atom" />
             <h1 className="pb-2 pt-3">Modern</h1>
             <p className="lead">
-              I enjoy creating sleek and modern designs with the latest tools.
+              My layouts and look are all based on modern UI/UX practices.
             </p>
           </Col>
           <Col lg="4" className="py-5">

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default () => {
   return (
-    <div className="wrap landing-BG">
+    <div className="wrap landing-BG parallaxFX">
       <div className="dark-overlay">
         <Container className="land text-center">
           <h1 className="OpenSans display-2 text-light font-weight-bold">
