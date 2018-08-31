@@ -1,14 +1,16 @@
 import React from 'react';
 import Landing from './Landing';
+import Abilities from './Abilities';
 import About from './About';
-import Tech from './Tech';
+import Portfolio from './Portfolio';
 
 export default () => {
   return (
     <div>
       <Landing />
+      <Abilities />
       <About />
-      <Tech />
+      <Portfolio />
     </div>
   );
 };

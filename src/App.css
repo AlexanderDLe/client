@@ -3,6 +3,7 @@
   --darken: rgba(0, 0, 0, 0.6);
   --white: rgba(255, 255, 255, 0.9);
   --black: rgba(0, 0, 0, 0.9);
+  --applegrey: #f3f3f3;
   --trans-standard: all 0.5s ease-in-out;
 }
 h1 {
@@ -37,6 +38,9 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.greyBG {
+  background-color: var(--applegrey);
 }
 /* BUTTONS */
 .my-button {
@@ -80,10 +84,12 @@ h1 {
 }
 /* ABOUT */
 .About-BG {
-  background-color: #f3f3f3;
+  min-height: 50vh;
+  background-color: var(--applegrey);
   padding: 50px 0px;
 }
 .about-page {
+  min-height: 50vh;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -106,6 +112,18 @@ h1 {
   width: auto;
   margin: 20px;
 }
+/* PORTFOLIO */
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-icon {
+  height: auto;
+  width: 100%;
+}
+
 /* MEDIA QUERIES: CONTAINERS */
 @media (min-width: 1200px) {
   .container {
