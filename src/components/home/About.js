@@ -29,7 +29,8 @@ export default () => {
               I'm fluent in the latest versions of fundamental web technologies
               such as HTML5, CSS3, and JavaScript. I also utilize popular front
               end frameworks and libraries such as Bootstrap 4, Sass, React &
-              Redux to create designs aligned with modern standards.
+              Redux to create blazingly-fast single page applications aligned
+              with modern standards.
             </p>
             <p className="text-muted">
               As for back end technologies, I am able to create CRUD

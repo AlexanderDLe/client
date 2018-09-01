@@ -2,7 +2,7 @@
 :root {
   --darken: rgba(0, 0, 0, 0.6);
   --white: rgba(255, 255, 255, 0.9);
-  --black: rgba(0, 0, 0, 0.9);
+  --black: rgba(0, 0, 0, 0.8);
   --applegrey: #f3f3f3;
   --trans-standard: all 0.5s ease-in-out;
 }
@@ -54,6 +54,7 @@ h1 {
   border-width: 2px;
   border-style: solid;
 }
+/* WHITE BUTTONS */
 .my-button-white {
   border-color: var(--white);
   color: var(--white);
@@ -75,6 +76,31 @@ h1 {
   transition: var(--trans-standard);
 }
 .my-button-white:hover:before {
+  width: 100%;
+  transition: var(--trans-standard);
+}
+/* BLACK BUTTONS */
+.my-button-black {
+  border-color: var(--black);
+  color: var(--black);
+  transition: var(--trans-standard);
+}
+.my-button-black:hover {
+  color: var(--white);
+  transition: var(--trans-standard);
+}
+.my-button-black::before {
+  content: '';
+  position: absolute;
+  background-color: var(--black);
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: var(--trans-standard);
+}
+.my-button-black:hover:before {
   width: 100%;
   transition: var(--trans-standard);
 }
@@ -110,7 +136,7 @@ h1 {
 .tech-icon {
   height: 100px;
   width: auto;
-  margin: 20px;
+  margin: 23px;
 }
 /* PORTFOLIO */
 .portfolio-container {
@@ -118,7 +144,6 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
 .portfolio-icon {
   height: auto;
   width: 100%;
