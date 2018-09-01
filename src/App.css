@@ -40,11 +40,15 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
+/* BG COLORS */
 .greyBG {
   background-color: var(--applegrey);
 }
 .blueBG {
   background-color: #dedeff;
+}
+.greenBG {
+  background-color: rgb(233, 255, 233);
 }
 .mx-auto {
   margin: 0 auto;

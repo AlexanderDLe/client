@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import VVNimg from '../../../img/VVN Site.png';
-import { Link } from 'react-router-dom';
-
+import MyButton from '../../utility/MyButton';
 export default () => {
   return (
     <div className="full-page blueBG portfolio-container">
@@ -12,7 +11,7 @@ export default () => {
             <img src={VVNimg} className="portfolio-icon" alt="" />
           </Col>
           <Col md="12" xl="6" className="py-5 center-items">
-            <h1 className="text-center py-3">VVN Artist Page</h1>
+            <h1 className="text-center py-1">VVN Artist Page</h1>
             <p className="lead">
               A custom tailored site developed for electronic artist VVN.
             </p>
@@ -21,19 +20,9 @@ export default () => {
               belonging to VVN. Responsive, detailed, and stylish - it perfectly
               suits her unique identity. Check it out.
             </p>
-            <div className="row">
-              <Link
-                to="/portfolio"
-                className="text-center mx-2 my-button my-button-black"
-              >
-                Website
-              </Link>
-              <Link
-                to="/portfolio"
-                className="text-center mx-2 my-button my-button-black"
-              >
-                Code
-              </Link>
+            <div className="m-2 row">
+              <MyButton to={'/portfolio'} color={'black'} name={'Website'} />
+              <MyButton to={'/portfolio'} color={'black'} name={'Code'} />
             </div>
           </Col>
         </Row>

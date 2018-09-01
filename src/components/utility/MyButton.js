@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom';
 export default props => {
   const { to, name, color } = props;
   return (
-    <Link to={to} className={`my-button my-button-${color} OpenSans`}>
+    <Link
+      to={to}
+      className={`mx-2 text-center my-button my-button-${color} OpenSans`}
+    >
       {name}
     </Link>
   );
