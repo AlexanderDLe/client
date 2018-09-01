@@ -2,12 +2,13 @@
 :root {
   --darken: rgba(0, 0, 0, 0.6);
   --white: rgba(255, 255, 255, 0.9);
-  --black: rgba(0, 0, 0, 0.8);
+  --black: rgba(0, 0, 0, 0.78);
   --applegrey: #f3f3f3;
   --trans-standard: all 0.5s ease-in-out;
 }
 h1 {
   font-family: Open Sans;
+  color: var(--black);
 }
 .full-page {
   height: 100vh;
@@ -42,12 +43,17 @@ h1 {
 .greyBG {
   background-color: var(--applegrey);
 }
+.blueBG {
+  background-color: #dedeff;
+}
+.mx-auto {
+  margin: 0 auto;
+}
 /* BUTTONS */
 .my-button {
   font-size: 1.6rem;
   width: 250px;
   padding: 5x 0px;
-  margin: 0 auto;
   overflow: hidden;
   position: relative;
   z-index: 2;
@@ -107,6 +113,7 @@ h1 {
 /* ICONS */
 .icon {
   font-size: 4rem;
+  color: var(--black);
 }
 /* ABOUT */
 .About-BG {

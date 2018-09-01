@@ -14,7 +14,7 @@ export default () => {
             Hi, I'm a Full Stack Developer with a focus on Front End. Welcome to
             my page.
           </p>
-          <Link to="/portfolio" className="my-button my-button-white">
+          <Link to="/portfolio" className="mx-auto my-button my-button-white">
             Explore
           </Link>
         </Container>
