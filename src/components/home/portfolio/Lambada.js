@@ -9,7 +9,7 @@ export default () => {
       <Container className="test">
         <Row className="portfolio-container">
           <Col md="12" xl="6" className="py-5 center-items">
-            <h1 className="text-center py-1">Lambada Tea & Frizzle</h1>
+            <h1 className="OpenSans page-title text-center py-1">Lambada</h1>
             <p className="lead">
               A bright and simplistic site for a welcoming boba shop.
             </p>

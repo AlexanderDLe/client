@@ -19,7 +19,7 @@ export default () => {
       <Container className="py-5">
         <Row>
           <Col md="12" xl="6" className="p-5 center-items">
-            <h1 className="text-center p-3">About</h1>
+            <h1 className="page-title text-center p-3">About</h1>
             <p className="lead">
               I'm a full stack web developer with a year of experience
               developing sites for businesses ranging from small shops to

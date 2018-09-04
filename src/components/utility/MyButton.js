@@ -6,7 +6,7 @@ export default props => {
   return (
     <Link
       to={to}
-      className={`mx-2 text-center my-button my-button-${color} OpenSans`}
+      className={`m-2 text-center my-button my-button-${color} OpenSans`}
     >
       {name}
     </Link>

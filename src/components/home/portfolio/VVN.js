@@ -11,9 +11,9 @@ export default () => {
             <img src={VVNimg} className="portfolio-icon" alt="" />
           </Col>
           <Col md="12" xl="6" className="py-5 center-items">
-            <h1 className="text-center py-1">VVN Artist Page</h1>
+            <h1 className="OpenSans page-title text-center py-1">VVN</h1>
             <p className="lead">
-              A custom tailored site developed for electronic artist VVN.
+              A custom site developed for electronic artist VVN.
             </p>
             <p className="text-muted">
               This page features music, services, information, and artwork

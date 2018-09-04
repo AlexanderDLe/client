@@ -7,7 +7,7 @@ export default () => {
     <div className="wrap landing-BG parallaxFX">
       <div className="dark-overlay">
         <Container className="land text-center">
-          <h1 className="OpenSans display-2 text-light font-weight-bold">
+          <h1 className="OpenSans landing-name text-light font-weight-bold">
             Alexander Le
           </h1>
           <p className="lead text-light">

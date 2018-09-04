@@ -16,19 +16,6 @@ h1 {
   width: 100%;
 }
 
-.landing-BG {
-  height: 100vh;
-  width: 100%;
-  background: url('./img/Landing.jpg') no-repeat center 0px;
-  background-size: cover;
-}
-.land {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 .dark-overlay {
   width: 100%;
   height: 100%;
@@ -40,6 +27,13 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
+.mx-auto {
+  margin: 0 auto;
+}
+.page-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
 /* BG COLORS */
 .greyBG {
   background-color: var(--applegrey);
@@ -50,13 +44,10 @@ h1 {
 .greenBG {
   background-color: rgb(233, 255, 233);
 }
-.mx-auto {
-  margin: 0 auto;
-}
 /* BUTTONS */
 .my-button {
   font-size: 1.6rem;
-  width: 250px;
+  width: 200px;
   padding: 5x 0px;
   overflow: hidden;
   position: relative;
@@ -118,6 +109,47 @@ h1 {
 .icon {
   font-size: 4rem;
   color: var(--black);
+}
+/* LANDING */
+.landing-BG {
+  height: 100vh;
+  width: 100%;
+  background: url('./img/Landing.jpg') no-repeat center 0px;
+  background-size: cover;
+}
+.land {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.landing-name {
+  font-size: 5.8rem;
+}
+@media (max-width: 800px) {
+  .landing-name {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 600px) {
+  .landing-name {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 420px) {
+  .landing-name {
+    font-size: 2.8rem;
+  }
+}
+/* ABILITIES */
+.p-card {
+  padding: 25px;
+}
+@media (max-width: 450px) {
+  .p-card {
+    padding: 25px 0;
+  }
 }
 /* ABOUT */
 .About-BG {
@@ -191,7 +223,7 @@ h1 {
 }
 @media (min-width: 1840px) {
   .container {
-    max-width: 1550px;
+    max-width: 1650px;
     width: 100%;
   }
 }

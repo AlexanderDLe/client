@@ -6,7 +6,7 @@ export default () => {
     <div className="About-BG">
       <Container className="about-page">
         <Row className="text-center">
-          <Col lg="4" className="p-5">
+          <Col lg="4" className="p-card">
             <i class="icon fas fa-mobile" />
             <h1 className="pb-2 pt-3">Responsive</h1>
             <p className="lead">
@@ -14,14 +14,14 @@ export default () => {
               device.
             </p>
           </Col>
-          <Col lg="4" className="p-5">
+          <Col lg="4" className="p-card">
             <i class="icon fas fa-atom" />
             <h1 className="pb-2 pt-3">Modern</h1>
             <p className="lead">
               My layouts and look are all based on modern UI/UX practices.
             </p>
           </Col>
-          <Col lg="4" className="p-5">
+          <Col lg="4" className="p-card">
             <i class="icon fas fa-lightbulb" />
             <h1 className="pb-2 pt-3">Dynamic</h1>
             <p className="lead">
