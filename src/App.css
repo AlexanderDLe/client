@@ -54,6 +54,7 @@ h1 {
   z-index: 2;
   border-width: 2px;
   border-style: solid;
+  border-radius: 10px;
 }
 /* WHITE BUTTONS */
 .my-button-white {
@@ -182,6 +183,11 @@ h1 {
   margin: 23px;
 }
 /* PORTFOLIO */
+.full-portfolio-page {
+  min-height: 100vh;
+  width: 100%;
+  padding: 50px 0;
+}
 .portfolio-container {
   display: flex;
   justify-content: center;
@@ -191,7 +197,31 @@ h1 {
   height: auto;
   width: 100%;
 }
-
+.portfolio-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-reverse-page {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.flex-item {
+  width: 50%;
+}
+.portfolio-text {
+  padding: 0 30px;
+}
+@media (max-width: 1199px) {
+  .reverse-page {
+    flex-wrap: wrap-reverse;
+  }
+  .flex-item {
+    width: 100%;
+  }
+  .portfolio-text {
+    padding: 0 0;
+  }
+}
 /* MEDIA QUERIES: CONTAINERS */
 @media (min-width: 1200px) {
   .container {
