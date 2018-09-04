@@ -22,16 +22,16 @@ export default () => {
             <div className="about-text">
               <h1 className="page-title text-center p-3">About</h1>
               <p className="lead">
-                I'm a full stack web developer with a year of experience
-                developing sites for businesses ranging from small shops to
-                construction enterprises.
+                I'm a full stack web developer with experience developing sites
+                for businesses ranging from small shops to construction
+                enterprises.
               </p>
               <p className="text-muted">
                 I'm fluent in the latest versions of fundamental web
                 technologies such as HTML5, CSS3, and JavaScript. I also utilize
                 popular front end frameworks and libraries such as Bootstrap 4,
                 Sass, React & Redux to create quick single page applications
-                aligned with modern standards.
+                aligned with modern trends.
               </p>
               <p className="text-muted">
                 As for back end technologies, I am able to create CRUD

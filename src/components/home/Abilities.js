@@ -7,7 +7,7 @@ export default () => {
       <Container className="about-page">
         <Row className="text-center">
           <Col lg="4" className="p-card">
-            <i class="icon fas fa-mobile" />
+            <i class="abilities-icon fas fa-mobile" />
             <h1 className="pb-2 pt-3">Responsive</h1>
             <p className="lead">
               I am able to build responsive designs that adjust smoothly to any
@@ -15,14 +15,14 @@ export default () => {
             </p>
           </Col>
           <Col lg="4" className="p-card">
-            <i class="icon fas fa-atom" />
+            <i class="abilities-icon fas fa-atom" />
             <h1 className="pb-2 pt-3">Modern</h1>
             <p className="lead">
-              My layouts and look are all based on modern UI/UX practices.
+              My layouts and look are all based on modern UI/UX trends.
             </p>
           </Col>
           <Col lg="4" className="p-card">
-            <i class="icon fas fa-lightbulb" />
+            <i class="abilities-icon fas fa-lightbulb" />
             <h1 className="pb-2 pt-3">Dynamic</h1>
             <p className="lead">
               Websites don't have to be static, I love making pages come to
