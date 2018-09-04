@@ -36,13 +36,13 @@ h1 {
 }
 /* BG COLORS */
 .greyBG {
-  background-color: var(--applegrey);
+  background: linear-gradient(270deg, #dadada, #f1f1f1);
 }
 .blueBG {
-  background-color: #dedeff;
+  background: linear-gradient(90deg, #a3a3ff, #dedeff);
 }
 .greenBG {
-  background-color: rgb(233, 255, 233);
+  background: linear-gradient(270deg, #bcffbc, #e9ffe9);
 }
 /* BUTTONS */
 .my-button {
@@ -155,7 +155,6 @@ h1 {
 /* ABOUT */
 .About-BG {
   min-height: 50vh;
-  background-color: var(--applegrey);
   padding: 50px 0px;
 }
 .about-page {
@@ -169,6 +168,14 @@ h1 {
   border: 1px solid black;
   max-width: 300px;
 }
+.about-text {
+  padding: 25px;
+}
+@media (max-width: 767px) {
+  .about-text {
+    padding: 0px;
+  }
+}
 /* TECH */
 .tech-box {
   height: 100%;
@@ -180,7 +187,7 @@ h1 {
 .tech-icon {
   height: 100px;
   width: auto;
-  margin: 23px;
+  margin: 25px;
 }
 /* PORTFOLIO */
 .full-portfolio-page {
@@ -205,6 +212,12 @@ h1 {
   display: flex;
   flex-wrap: wrap-reverse;
 }
+.flex-item-text {
+  width: 50%;
+}
+.flex-item-img {
+  width: 50%;
+}
 .flex-item {
   width: 50%;
 }
@@ -222,6 +235,14 @@ h1 {
     padding: 0 0;
   }
 }
+@media (min-width: 1640px) {
+  .flex-item-text {
+    width: 40%;
+  }
+  .flex-item-img {
+    width: 60%;
+  }
+}
 /* MEDIA QUERIES: CONTAINERS */
 @media (min-width: 1200px) {
   .container {
@@ -230,30 +251,26 @@ h1 {
 }
 @media (min-width: 1400px) {
   .container {
-    max-width: 1180px;
+    max-width: 1280px;
   }
   .nav-link {
     letter-spacing: 1px;
   }
 }
+
 @media (min-width: 1440px) {
   .container {
-    max-width: 1220px;
-  }
-}
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1280px;
+    max-width: 1320px;
   }
 }
 @media (min-width: 1640px) {
   .container {
-    max-width: 1400px;
+    max-width: 1440px;
   }
 }
 @media (min-width: 1840px) {
   .container {
-    max-width: 1650px;
+    max-width: 1680px;
     width: 100%;
   }
 }

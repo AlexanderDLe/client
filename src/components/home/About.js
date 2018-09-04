@@ -18,26 +18,28 @@ export default () => {
       {/* <h1 className="py-5 text-center">Technologies</h1> */}
       <Container className="py-5">
         <Row>
-          <Col md="12" xl="6" className="p-5 center-items">
-            <h1 className="page-title text-center p-3">About</h1>
-            <p className="lead">
-              I'm a full stack web developer with a year of experience
-              developing sites for businesses ranging from small shops to
-              construction enterprises.
-            </p>
-            <p className="text-muted">
-              I'm fluent in the latest versions of fundamental web technologies
-              such as HTML5, CSS3, and JavaScript. I also utilize popular front
-              end frameworks and libraries such as Bootstrap 4, Sass, React &
-              Redux to create blazingly-fast single page applications aligned
-              with modern standards.
-            </p>
-            <p className="text-muted">
-              As for back end technologies, I am able to create CRUD
-              Applications for dynamic content. I have experience with Node,
-              Express, and MongoDB creating Rest APIs that allow users to
-              securely communicate with servers and databases.
-            </p>
+          <Col md="12" xl="6" className="center-items">
+            <div className="about-text">
+              <h1 className="page-title text-center p-3">About</h1>
+              <p className="lead">
+                I'm a full stack web developer with a year of experience
+                developing sites for businesses ranging from small shops to
+                construction enterprises.
+              </p>
+              <p className="text-muted">
+                I'm fluent in the latest versions of fundamental web
+                technologies such as HTML5, CSS3, and JavaScript. I also utilize
+                popular front end frameworks and libraries such as Bootstrap 4,
+                Sass, React & Redux to create quick single page applications
+                aligned with modern standards.
+              </p>
+              <p className="text-muted">
+                As for back end technologies, I am able to create CRUD
+                Applications for dynamic content. I have experience with Node,
+                Express, and MongoDB creating Rest APIs that allow users to
+                securely communicate with servers and databases.
+              </p>
+            </div>
           </Col>
           <Col md="12" xl="6" className="py-5">
             <div className="tech-box">

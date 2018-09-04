@@ -6,12 +6,12 @@ export default () => {
   return (
     <div className="full-portfolio-page blueBG portfolio-container">
       <Container className="portfolio-page">
-        <div className="flex-item">
+        <div className="flex-item-img">
           <img src={VVNimg} className="portfolio-icon" alt="" />
         </div>
-        <div className="py-5 center-items flex-item portfolio-text">
+        <div className="py-5 center-items flex-item-text portfolio-text">
           <h1 className="OpenSans page-title text-center py-1">VVN</h1>
-          <p className="lead">
+          <p className="lead text-align-left">
             A custom site developed for electronic artist VVN.
           </p>
           <p className="text-muted">

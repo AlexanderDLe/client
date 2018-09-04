@@ -7,7 +7,7 @@ export default () => {
   return (
     <div className="full-portfolio-page greenBG portfolio-container">
       <Container className="portfolio-reverse-page">
-        <div className="flex-item reverse-item py-5 center-items portfolio-text">
+        <div className="flex-item-text reverse-item py-5 center-items portfolio-text">
           <h1 className="OpenSans page-title text-center py-1">Lambada</h1>
           <p className="lead">
             A bright and simplistic site for a welcoming boba shop.
@@ -22,7 +22,7 @@ export default () => {
             <MyButton to={'/portfolio'} color={'black'} name={'Code'} />
           </div>
         </div>
-        <div className="flex-item">
+        <div className="flex-item-img">
           <img src={Lambadaimg} className="portfolio-icon" alt="" />
         </div>
       </Container>
