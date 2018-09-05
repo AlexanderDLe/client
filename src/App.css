@@ -55,7 +55,7 @@ h1 {
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
-  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 7px 12px -5px rgba(0, 0, 0, 0.5);
 }
 /* WHITE BUTTONS */
 .my-button-white {
@@ -157,7 +157,7 @@ h1 {
   top: -14px;
 }
 .nav-icon.active .hamburger {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0) !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
 }
 .nav-icon.active .hamburger:before {
@@ -167,6 +167,14 @@ h1 {
 .nav-icon.active .hamburger:after {
   transform: rotate(-225deg);
   top: 0;
+}
+
+.nav-icon.nav-black .hamburger {
+  background: #000000;
+}
+.nav-icon.nav-black .hamburger:before,
+.nav-icon.nav-black .hamburger:after {
+  background: #000000;
 }
 /* LANDING */
 .landing-BG {
