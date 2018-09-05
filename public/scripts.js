@@ -5,3 +5,9 @@ window.addEventListener('scroll', function() {
     parallaxFX.style.backgroundPositionY = scrollY * 0.25 + 'px';
   }
 });
+
+// Toggle Nav
+const navIcon = document.querySelector('.nav-icon');
+navIcon.addEventListener('click', function() {
+  navIcon.classList.toggle('active');
+});
