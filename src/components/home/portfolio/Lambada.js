@@ -6,7 +6,7 @@ import MyButton from '../../utility/MyButton';
 export default () => {
   return (
     <div className="full-portfolio-page greenBG portfolio-container">
-      <Container className="portfolio-reverse-page">
+      <Container className="portfolio-reverse-page py-5">
         <div className="flex-item-text reverse-item py-5 center-items portfolio-text">
           <h1 className="OpenSans page-title text-center py-1">Lambada</h1>
           <p className="lead">

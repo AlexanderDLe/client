@@ -7,7 +7,6 @@ import JavaScript from '../../img/JavaScript.png';
 import Sass from '../../img/Sass.png';
 import ReactIcon from '../../img/React.png';
 import Express from '../../img/Express.png';
-import Github from '../../img/Github.png';
 import Node from '../../img/Node.png';
 import Redux from '../../img/Redux.png';
 import MongoDB from '../../img/MongoDB.png';
@@ -28,16 +27,16 @@ export default () => {
               </p>
               <p className="text-muted">
                 I'm fluent in the latest versions of fundamental web
-                technologies such as HTML5, CSS3, and JavaScript. I also utilize
+                technologies such as HTML5, CSS3, and JavaScript. I utilize
                 popular front end frameworks and libraries such as Bootstrap 4,
                 Sass, React & Redux to create quick single page applications
                 aligned with modern trends.
               </p>
               <p className="text-muted">
-                As for back end technologies, I am able to create CRUD
-                Applications for dynamic content. I have experience with Node,
-                Express, and MongoDB creating Rest APIs that allow users to
-                securely communicate with servers and databases.
+                As for back end technologies, I can create CRUD Applications for
+                interactive content. I have experience with Node, Express, and
+                MongoDB creating Rest APIs that allow users to securely
+                communicate with servers and databases.
               </p>
             </div>
           </Col>
@@ -53,7 +52,7 @@ export default () => {
               <img src={Node} alt="" className="tech-icon" />
               <img src={Express} alt="" className="tech-icon" />
               <img src={MongoDB} alt="" className="tech-icon" />
-              <img src={Github} alt="" className="tech-icon" />
+              {/* <img src={Github} alt="" className="tech-icon" /> */}
             </div>
           </Col>
         </Row>

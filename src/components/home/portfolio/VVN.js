@@ -5,7 +5,7 @@ import MyButton from '../../utility/MyButton';
 export default () => {
   return (
     <div className="full-portfolio-page blueBG portfolio-container">
-      <Container className="portfolio-page">
+      <Container className="portfolio-page py-5">
         <div className="flex-item-img">
           <img src={VVNimg} className="portfolio-icon" alt="" />
         </div>

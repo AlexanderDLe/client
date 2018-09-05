@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import GithubIcon from '../../img/Github.png';
+import LinkedInIcon from '../../img/LinkedIn.png';
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -62,7 +65,7 @@ export default class Nav extends Component {
     const { toggle, iconColor } = this.state;
 
     return (
-      <div className="navigation">
+      <div className="">
         <Container className="nav-container">
           <div
             onClick={this.toggleOnClick}
@@ -71,6 +74,30 @@ export default class Nav extends Component {
             <div className="hamburger" />
           </div>
         </Container>
+        <div className={`nav-modal ${toggle}`}>
+          <ul className="nav-list">
+            <li className="nav-item">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/">About</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/">Portfolio</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/">Contact</Link>
+            </li>
+            <li className="mt-3">
+              <Link className="mx-1" to="/">
+                <img className="nav-social-icon" src={GithubIcon} alt="" />
+              </Link>
+              <Link className="mx-1" to="/">
+                <img className="nav-social-icon" src={LinkedInIcon} alt="" />
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }
