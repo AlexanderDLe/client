@@ -34,6 +34,12 @@ h1 {
   font-size: 3.5rem;
   font-weight: bold;
 }
+.flex-center {
+  justify-content: center;
+}
+.text-muted-custom {
+  color: rgba(0, 0, 0, 0.8);
+}
 /* SHADOWS */
 .shadowed {
   -webkit-filter: drop-shadow(2px 7px 5px rgba(0, 0, 0, 0.3));
@@ -59,7 +65,6 @@ h1 {
 .my-button {
   font-size: 1.3rem;
   width: 200px;
-  padding: 5x 0px;
   overflow: hidden;
   position: relative;
   border-width: 2px;

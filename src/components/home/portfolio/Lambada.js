@@ -12,7 +12,7 @@ export default () => {
           <p className="lead">
             A bright and simplistic site for a welcoming boba shop.
           </p>
-          <p className="text-muted">
+          <p className="text-muted-custom">
             This friendly page features a full menu gallery, a sliding image
             carousel, information, and nice vibes. Fully responsive, quick, and
             easy to get the info you need - it's perfect for a boba shop.

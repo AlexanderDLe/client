@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import MyLink from '../utility/MyLink';
 
 export default () => {
   return (
@@ -14,12 +14,9 @@ export default () => {
             Hi, I'm a Full Stack Developer with a focus on Front End. Welcome to
             my page.
           </p>
-          <Link
-            to="/portfolio"
-            className="py-2 mx-auto my-button my-button-white"
-          >
-            Explore
-          </Link>
+          <div className="d-flex flex-center">
+            <MyLink to="/portfolio" name="Explore" color="white" />
+          </div>
         </Container>
       </div>
     </div>

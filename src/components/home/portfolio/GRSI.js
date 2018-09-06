@@ -14,7 +14,7 @@ export default () => {
           <p className="lead text-align-left">
             An interactive demo site for GRSI.
           </p>
-          <p className="text-muted">
+          <p className="text-muted-custom">
             A multi-featured site that has interactive elements including a
             login system with secure authentication, an API that allows
             modification of the database to edit the testimonial page, a contact

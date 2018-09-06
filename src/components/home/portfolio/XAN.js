@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import XANimg from '../../../img/XAN Site.png';
 import MyButton from '../../utility/MyButton';
+import MyLink from '../../utility/MyLink';
 
 export default () => {
   return (
@@ -12,17 +13,13 @@ export default () => {
           <p className="lead">
             My personal artist page for my music and interests.
           </p>
-          <p className="text-muted">
+          <p className="text-muted-custom">
             This friendly page features a full menu gallery, a sliding image
             carousel, information, and nice vibes. Fully responsive, quick, and
             easy to get the info you need - it's perfect for a boba shop.
           </p>
           <div className="m-2 row">
-            <MyButton
-              href={'https://github.com/AlexanderDLe/XANTea'}
-              color={'black'}
-              name={'Website'}
-            />
+            <MyLink to={'/artist'} color={'black'} name={'Website'} />
             <MyButton
               href={'https://github.com/AlexanderDLe/XANTea'}
               color={'black'}

@@ -14,7 +14,7 @@ export default () => {
           <p className="lead text-align-left">
             A custom site developed for electronic artist VVN.
           </p>
-          <p className="text-muted">
+          <p className="text-muted-custom">
             This page features music, services, information, and artwork
             belonging to VVN. Responsive, detailed, and stylish - it perfectly
             suits her unique identity. Check it out.
