@@ -44,7 +44,7 @@ h1 {
   background: linear-gradient(270deg, #dadada, #f8f8f8);
 }
 .blueBG {
-  background: linear-gradient(90deg, #7575ff, #dedeff);
+  background: linear-gradient(90deg, #5c5cff, #dedeff);
 }
 .greenBG {
   background: linear-gradient(270deg, #88ff88, #e9ffe9);
@@ -54,7 +54,7 @@ h1 {
 }
 /* BUTTONS */
 .my-button {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 200px;
   padding: 5x 0px;
   overflow: hidden;

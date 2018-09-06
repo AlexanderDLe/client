@@ -7,7 +7,7 @@ export default props => {
       href={href}
       rel="noopener noreferrer"
       target="_blank"
-      className={`m-2 text-center my-button my-button-${color} OpenSans`}
+      className={`py-2 m-2 text-center my-button my-button-${color} OpenSans`}
     >
       {name}
     </a>
