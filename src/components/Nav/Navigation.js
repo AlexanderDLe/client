@@ -37,11 +37,11 @@ export default class Nav extends Component {
   }
 
   handleScroll(e) {
-    if (window.scrollY > window.innerHeight - 16) {
+    if (window.scrollY > window.innerHeight - 35) {
       this.setState({
         iconColor: 'nav-black'
       });
-    } else if (window.scrollY < window.innerHeight - 16) {
+    } else if (window.scrollY < window.innerHeight - 35) {
       this.setState({
         iconColor: ''
       });
@@ -89,10 +89,10 @@ export default class Nav extends Component {
               <Link to="/">Contact</Link>
             </li>
             <li className="mt-3">
-              <Link className="mx-1" to="/">
+              <Link className="mr-3" to="/">
                 <img className="nav-social-icon" src={GithubIcon} alt="" />
               </Link>
-              <Link className="mx-1" to="/">
+              <Link className="" to="/">
                 <img className="nav-social-icon" src={LinkedInIcon} alt="" />
               </Link>
             </li>

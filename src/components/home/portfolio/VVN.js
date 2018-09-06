@@ -7,7 +7,7 @@ export default () => {
     <div className="full-portfolio-page blueBG portfolio-container">
       <Container className="portfolio-page py-5">
         <div className="flex-item-img">
-          <img src={VVNimg} className="portfolio-icon" alt="" />
+          <img src={VVNimg} className="portfolio-icon shadowed" alt="" />
         </div>
         <div className="py-5 center-items flex-item-text portfolio-text">
           <h1 className="OpenSans page-title text-center py-1">VVN</h1>
@@ -20,8 +20,16 @@ export default () => {
             suits her unique identity. Check it out.
           </p>
           <div className="m-2 row">
-            <MyButton to={'/portfolio'} color={'black'} name={'Website'} />
-            <MyButton to={'/portfolio'} color={'black'} name={'Code'} />
+            <MyButton
+              href={'http://www.vvnzquan.com/'}
+              color={'black'}
+              name={'Website'}
+            />
+            <MyButton
+              href={'https://github.com/AlexanderDLe/VVNSite'}
+              color={'black'}
+              name={'Code'}
+            />
           </div>
         </div>
       </Container>

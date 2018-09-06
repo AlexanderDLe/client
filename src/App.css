@@ -34,15 +34,23 @@ h1 {
   font-size: 3.5rem;
   font-weight: bold;
 }
+/* SHADOWS */
+.shadowed {
+  -webkit-filter: drop-shadow(2px 7px 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(2px 7px 5px rgba(0, 0, 0, 0.3));
+}
 /* BG COLORS */
 .greyBG {
-  background: linear-gradient(270deg, #dadada, #f1f1f1);
+  background: linear-gradient(270deg, #dadada, #f8f8f8);
 }
 .blueBG {
-  background: linear-gradient(90deg, #a5a5ff, #dedeff);
+  background: linear-gradient(90deg, #7575ff, #dedeff);
 }
 .greenBG {
-  background: linear-gradient(270deg, #bcffbc, #e9ffe9);
+  background: linear-gradient(270deg, #88ff88, #e9ffe9);
+}
+.orangeBG {
+  background: linear-gradient(90deg, rgb(255, 181, 97), rgb(255, 242, 226) 9);
 }
 /* BUTTONS */
 .my-button {
@@ -55,6 +63,7 @@ h1 {
   border-style: solid;
   text-transform: uppercase;
   letter-spacing: 2px;
+  z-index: 1;
   box-shadow: 0 7px 12px -5px rgba(0, 0, 0, 0.3);
 }
 /* WHITE BUTTONS */
@@ -130,7 +139,7 @@ h1 {
   width: 270px;
   background: #fff;
   transition: var(--trans-standard);
-  z-index: 1;
+  z-index: 2;
   transform: translateX(100%);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
@@ -287,9 +296,9 @@ h1 {
   align-items: center;
 }
 .tech-icon {
-  height: 100px;
+  height: 95px;
   width: auto;
-  margin: 25px;
+  margin: 20px;
 }
 /* PORTFOLIO */
 .full-portfolio-page {

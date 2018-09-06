@@ -10,8 +10,7 @@ export default () => {
             <i className="abilities-icon fas fa-mobile" />
             <h1 className="pb-2 pt-3">Responsive</h1>
             <p className="lead">
-              I am able to build responsive designs that adjust smoothly to any
-              device.
+              My designs are fully responsive and adjust smoothly to any device.
             </p>
           </Col>
           <Col lg="4" className="p-card">

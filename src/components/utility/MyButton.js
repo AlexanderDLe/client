@@ -1,14 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default props => {
-  const { to, name, color } = props;
+  const { name, color, href } = props;
   return (
-    <Link
-      to={to}
+    <a
+      href={href}
+      rel="noopener noreferrer"
+      target="_blank"
       className={`m-2 text-center my-button my-button-${color} OpenSans`}
     >
       {name}
-    </Link>
+    </a>
   );
 };

@@ -18,12 +18,20 @@ export default () => {
             easy to get the info you need - it's perfect for a boba shop.
           </p>
           <div className="m-2 row">
-            <MyButton to={'/portfolio'} color={'black'} name={'Website'} />
-            <MyButton to={'/portfolio'} color={'black'} name={'Code'} />
+            <MyButton
+              href={'https://github.com/AlexanderDLe/LambadaTea'}
+              color={'black'}
+              name={'Website'}
+            />
+            <MyButton
+              href={'https://github.com/AlexanderDLe/LambadaTea'}
+              color={'black'}
+              name={'Code'}
+            />
           </div>
         </div>
         <div className="flex-item-img">
-          <img src={Lambadaimg} className="portfolio-icon" alt="" />
+          <img src={Lambadaimg} className="portfolio-icon shadowed" alt="" />
         </div>
       </Container>
     </div>
