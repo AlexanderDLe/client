@@ -56,10 +56,10 @@ h1 {
   background: linear-gradient(270deg, #88ff88, #e9ffe9);
 }
 .redBG {
-  background: linear-gradient(270deg, rgb(255, 86, 86), rgb(255, 224, 224));
+  background: linear-gradient(270deg, rgb(255, 95, 95), rgb(255, 224, 224));
 }
 .orangeBG {
-  background: linear-gradient(90deg, rgb(255, 181, 97), rgb(255, 242, 226) 9);
+  background: linear-gradient(90deg, rgb(255, 179, 92), rgb(255, 242, 226) 9);
 }
 /* BUTTONS */
 .my-button {
