@@ -3,6 +3,7 @@ import { Container } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import GithubIcon from '../../img/Github.png';
 import LinkedInIcon from '../../img/LinkedIn.png';
+import XanNavLogo from '../../img/Xan Resized.jpg';
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -76,6 +77,11 @@ export default class Nav extends Component {
         </Container>
         <div className={`nav-modal ${toggle}`}>
           <ul className="nav-list">
+            <li className="nav-item">
+              <Link to="/artist">
+                <img src={XanNavLogo} className="xan-nav-logo" alt="" />
+              </Link>
+            </li>
             <li className="nav-item">
               <Link to="/">Home</Link>
             </li>

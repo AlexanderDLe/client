@@ -1,14 +1,21 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-export default props => {
-  const { name, color, to } = props;
-  return (
-    <Link
-      to={to}
-      className={`py-2 m-2 text-center my-button my-button-${color} OpenSans`}
-    >
-      {name}
-    </Link>
-  );
-};
+export default class MyLink extends Component {
+  render() {
+    const { name, color, href } = this.props;
+    return (
+      <div className="my-3">
+        <Fade bottom>
+          <AnchorLink
+            href={href}
+            className={`my-button-${name} text-center my-button my-button-${color} OpenSans`}
+          >
+            {name}
+          </AnchorLink>
+        </Fade>
+      </div>
+    );
+  }
+}

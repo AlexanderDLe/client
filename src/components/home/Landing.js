@@ -15,7 +15,7 @@ export default () => {
             my page.
           </p>
           <div className="d-flex flex-center">
-            <MyLink to="/portfolio" name="Explore" color="white" />
+            <MyLink name="Explore" color="white" href="/about" />
           </div>
         </Container>
       </div>

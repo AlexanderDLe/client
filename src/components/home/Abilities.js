@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 export default () => {
   return (
-    <div className="About-BG greyBG">
+    <div className="Abilities-BG">
       <Container className="about-page">
         <Row className="text-center">
           <Col lg="4" className="p-card">
