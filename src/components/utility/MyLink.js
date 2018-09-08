@@ -7,7 +7,7 @@ export default class MyLink extends Component {
     const { name, color, href } = this.props;
     return (
       <div className="my-3">
-        <Fade>
+        <Fade bottom>
           <AnchorLink
             href={href}
             className={`my-button-${name} text-center my-button my-button-${color} OpenSans`}

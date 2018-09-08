@@ -51,7 +51,7 @@ hr {
 }
 /* BG COLORS */
 .greyBG {
-  background: linear-gradient(90deg, #e7e7e7, #f8f8f8);
+  background: linear-gradient(90deg, #ececec, #f8f8f8);
 }
 .blueBG {
   background: linear-gradient(90deg, #5c5cff, #dedeff);
@@ -440,5 +440,17 @@ hr {
   .container {
     max-width: 1680px;
     width: 100%;
+  }
+}
+/* ANIMATION */
+.rotation {
+  animation: rotation 5s linear infinite;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
