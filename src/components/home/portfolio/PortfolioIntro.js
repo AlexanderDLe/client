@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
+import Abilities from './Abilities';
 
 export default () => {
   return (
@@ -10,7 +11,7 @@ export default () => {
         </h1>
         <hr />
         <p className="lead text-center">
-          Below are the various projects I've worked on.
+          Below are the various projects I've built.
         </p>
         <p className="text-muted portfolio-intro-text">
           I'm fluent in the latest versions of fundamental web technologies such
@@ -19,6 +20,7 @@ export default () => {
           single page applications aligned with modern trends.
         </p>
       </Container>
+      <Abilities />
     </div>
   );
 };

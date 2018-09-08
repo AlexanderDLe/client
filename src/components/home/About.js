@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import Abilities from './Abilities';
 import Bootstrap4 from '../../img/Bootstrap4.png';
 import CSS3 from '../../img/CSS3.png';
 import HTML5 from '../../img/HTML5.png';
@@ -57,7 +56,6 @@ export default () => {
           </Col>
         </Row>
       </Container>
-      <Abilities />
     </div>
   );
 };

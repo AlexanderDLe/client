@@ -51,7 +51,7 @@ hr {
 }
 /* BG COLORS */
 .greyBG {
-  background: linear-gradient(90deg, #e9e9e9, #f8f8f8);
+  background: linear-gradient(90deg, #e7e7e7, #f8f8f8);
 }
 .blueBG {
   background: linear-gradient(90deg, #5c5cff, #dedeff);
@@ -287,11 +287,11 @@ hr {
 }
 /* ABOUT */
 .Abilities-BG {
-  min-height: 35vh;
-  padding: 0px 0px;
+  /* min-height: 35vh; */
+  /* padding: 0px 0px; */
 }
 .about-page {
-  min-height: 35vh;
+  /* min-height: 35vh; */
   height: 100%;
   display: flex;
   justify-content: center;
@@ -330,7 +330,6 @@ hr {
 .portfolio-intro-text {
   text-align: center;
   margin: 0 auto;
-  width: 90%;
   max-width: 911px;
 }
 .full-portfolio-page {
