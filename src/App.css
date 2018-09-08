@@ -286,12 +286,21 @@ hr {
   }
 }
 /* ABOUT */
+.about-page {
+  padding: 100px 0px;
+}
+.MyIMG {
+  height: auto;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.3);
+}
 .Abilities-BG {
   /* min-height: 35vh; */
   /* padding: 0px 0px; */
 }
-.about-page {
-  /* min-height: 35vh; */
+.abilities-page {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -325,7 +334,7 @@ hr {
 /* PORTFOLIO */
 .portfolio-intro {
   min-height: 300px;
-  padding: 150px 0px;
+  padding: 100px 0px;
 }
 .portfolio-intro-text {
   text-align: center;

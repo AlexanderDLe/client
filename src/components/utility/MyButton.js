@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export default class MyButton extends Component {
   render() {
@@ -7,14 +8,14 @@ export default class MyButton extends Component {
     return (
       <div className="my-3">
         <Fade bottom>
-          <a
+          <AnchorLink
             href={href}
             rel="noopener noreferrer"
             target="_blank"
             className={`my-button-${name} m-2 text-center my-button my-button-${color} OpenSans`}
           >
             {name}
-          </a>
+          </AnchorLink>
         </Fade>
       </div>
     );

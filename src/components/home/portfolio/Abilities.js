@@ -5,9 +5,9 @@ import Fade from 'react-reveal/Fade';
 export default () => {
   return (
     <div className="Abilities-BG pt-5">
-      <Container className="about-page">
+      <Container className="abilities-page">
         <Row className="text-center">
-          <Col lg="4" className="p-card">
+          <Col lg="4" className="p-card conditional-padding">
             <Fade left>
               <i className="abilities-icon fas fa-mobile" />
               <h1 className="pb-2 pt-3">Responsive</h1>
@@ -17,7 +17,7 @@ export default () => {
               </p>
             </Fade>
           </Col>
-          <Col lg="4" className="p-card">
+          <Col lg="4" className="p-card conditional-padding">
             <Fade bottom>
               <i id="test" className="abilities-icon fas fa-atom" />
               <h1 className="pb-2 pt-3">Modern</h1>
