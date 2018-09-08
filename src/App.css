@@ -6,6 +6,7 @@
   --black: rgba(0, 0, 0, 0.75);
   --applegrey: #f3f3f3;
   --trans-standard: all 0.5s ease-in-out;
+  --trans-standard2: all 0.7s ease-in-out;
 }
 h1 {
   font-family: Open Sans;
@@ -166,7 +167,6 @@ hr {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
 .nav-modal.active {
-  height: 100vh;
   transition: var(--trans-standard);
   transform: translateX(0%);
 }
@@ -176,6 +176,14 @@ hr {
   text-align: left;
   position: relative;
   top: 100px;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: var(--trans-standard2);
+}
+.nav-list.active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: var(--trans-standard2);
 }
 .nav-item {
   font-size: 1.5rem;

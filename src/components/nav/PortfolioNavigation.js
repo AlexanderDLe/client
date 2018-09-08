@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import GithubIcon from '../../img/Github.png';
 import LinkedInIcon from '../../img/LinkedIn.png';
 import XanNavLogo from '../../img/Xan Resized.jpg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -76,23 +77,31 @@ export default class Nav extends Component {
           </div>
         </Container>
         <div className={`nav-modal ${toggle}`}>
-          <ul className="nav-list">
+          <ul className={`nav-list ${toggle}`}>
             <li className="nav-item">
-              <Link to="/artist">
+              <Link to="/artist" onClick={this.toggleOnClick}>
                 <img src={XanNavLogo} className="xan-nav-logo" alt="" />
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/">Home</Link>
+              <AnchorLink href="/home" onClick={this.toggleOnClick}>
+                Home
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link to="/">About</Link>
+              <AnchorLink href="/about" onClick={this.toggleOnClick}>
+                About
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link to="/">Portfolio</Link>
+              <AnchorLink href="/portfolio" onClick={this.toggleOnClick}>
+                Portfolio
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link to="/">Contact</Link>
+              <AnchorLink href="/contact" onClick={this.toggleOnClick}>
+                Contact
+              </AnchorLink>
             </li>
             <li className="mt-3">
               <Link className="mr-3" to="/">

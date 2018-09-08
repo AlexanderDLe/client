@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Nav from './components/Nav/Navigation';
 import Home from './components/home/Home';
 import Xan_Page from './components/xan/Xan_Page';
 
@@ -11,7 +10,6 @@ class App extends Component {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
-          <Nav />
           <Route exact path="/" component={Home} />
           <Route exact path="/artist" component={Xan_Page} />
         </div>
