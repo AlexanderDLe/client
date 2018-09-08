@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Abilities from './Abilities';
 import Bootstrap4 from '../../img/Bootstrap4.png';
 import CSS3 from '../../img/CSS3.png';
 import HTML5 from '../../img/HTML5.png';
@@ -13,41 +14,12 @@ import MongoDB from '../../img/MongoDB.png';
 
 export default () => {
   return (
-    <div id="about" className="half-page">
-      <div className="Abilities-BG">
-        <Container className="about-page">
-          <Row className="text-center">
-            <Col lg="4" className="p-card">
-              <i className="abilities-icon fas fa-mobile" />
-              <h1 className="pb-2 pt-3">Responsive</h1>
-              <p className="lead">
-                My designs are fully responsive and adjust smoothly to any
-                device.
-              </p>
-            </Col>
-            <Col lg="4" className="p-card">
-              <i className="abilities-icon fas fa-atom" />
-              <h1 className="pb-2 pt-3">Modern</h1>
-              <p className="lead">
-                My layouts and look are all based on modern UI/UX trends.
-              </p>
-            </Col>
-            <Col lg="4" className="p-card">
-              <i className="abilities-icon fas fa-lightbulb" />
-              <h1 className="pb-2 pt-3">Dynamic</h1>
-              <p className="lead">
-                Websites don't have to be static, I love making pages come to
-                life.
-              </p>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <Container className="pb-5">
+    <div id="about" className="half-page py-5">
+      <Container className="">
         <Row>
           <Col md="12" xl="6" className="center-items">
             <div className="about-text">
-              <h1 className="page-title text-center p-3">About</h1>
+              <h1 className="page-title text-center p-3">ABOUT</h1>
               <p className="lead">
                 I'm a full stack web developer with experience developing sites
                 for businesses ranging from small shops to construction
@@ -85,6 +57,7 @@ export default () => {
           </Col>
         </Row>
       </Container>
+      <Abilities />
     </div>
   );
 };

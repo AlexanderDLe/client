@@ -4,7 +4,7 @@ import MyLink from '../utility/MyLink';
 
 export default () => {
   return (
-    <div className="wrap landing-BG parallaxFX">
+    <div id="home" className="wrap landing-BG parallaxFX">
       <div className="dark-overlay">
         <Container className="land text-center">
           <h1 className="OpenSans landing-name text-light font-weight-bold">

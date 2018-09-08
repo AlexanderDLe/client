@@ -8,10 +8,9 @@ export default () => {
     <div className="full-portfolio-page greenBG portfolio-container">
       <Container className="portfolio-reverse-page py-5">
         <div className="flex-item-text reverse-item py-5 center-items portfolio-text">
-          <h1 className="OpenSans page-title text-center py-1">Lambada</h1>
-          <p className="lead">
-            A bright and simplistic site for a welcoming boba shop.
-          </p>
+          <h1 className="OpenSans page-title text-center ">LAMBADA</h1>
+          <hr />
+          <p className="lead">A simplistic site for a sweet boba shop.</p>
           <p className="text-muted-custom">
             This friendly page features a full menu gallery, a sliding image
             carousel, information, and nice vibes. Fully responsive, quick, and

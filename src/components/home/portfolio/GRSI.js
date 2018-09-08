@@ -10,7 +10,8 @@ export default () => {
           <img src={GRSIimg} className="portfolio-icon shadowed" alt="" />
         </div>
         <div className="py-5 center-items flex-item-text portfolio-text">
-          <h1 className="OpenSans page-title text-center py-1">GRSI</h1>
+          <h1 className="OpenSans page-title text-center">GRSI</h1>
+          <hr />
           <p className="lead text-align-left">
             An interactive demo site for GRSI.
           </p>

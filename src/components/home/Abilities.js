@@ -9,21 +9,21 @@ export default () => {
           <Col lg="4" className="p-card">
             <i className="abilities-icon fas fa-mobile" />
             <h1 className="pb-2 pt-3">Responsive</h1>
-            <p className="lead">
+            <p className="text-muted">
               My designs are fully responsive and adjust smoothly to any device.
             </p>
           </Col>
           <Col lg="4" className="p-card">
             <i className="abilities-icon fas fa-atom" />
             <h1 className="pb-2 pt-3">Modern</h1>
-            <p className="lead">
+            <p className="text-muted">
               My layouts and look are all based on modern UI/UX trends.
             </p>
           </Col>
           <Col lg="4" className="p-card">
             <i className="abilities-icon fas fa-lightbulb" />
             <h1 className="pb-2 pt-3">Dynamic</h1>
-            <p className="lead">
+            <p className="text-muted">
               Websites don't have to be static, I love making pages come to
               life.
             </p>

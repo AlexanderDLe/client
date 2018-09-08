@@ -9,14 +9,15 @@ export default () => {
     <div className="full-portfolio-page redBG portfolio-container">
       <Container className="portfolio-reverse-page py-5">
         <div className="flex-item-text reverse-item py-5 center-items portfolio-text">
-          <h1 className="OpenSans page-title text-center py-1">XAN</h1>
+          <h1 className="OpenSans page-title text-center">XAN</h1>
+          <hr />
           <p className="lead">
             My personal artist page for my music and interests.
           </p>
           <p className="text-muted-custom">
-            This friendly page features a full menu gallery, a sliding image
-            carousel, information, and nice vibes. Fully responsive, quick, and
-            easy to get the info you need - it's perfect for a boba shop.
+            When I'm not coding, I could be found with my girlfriend, making
+            music, learning how to develop VR within Unreal Engine, or playing
+            video games.
           </p>
           <div className="m-2 row">
             <MyLink to={'/artist'} color={'black'} name={'Website'} />
