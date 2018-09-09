@@ -10,8 +10,8 @@ export default () => {
     <div>
       <PortfolioNavigation />
       <Landing />
-      <About />
       <Portfolio />
+      <About />
       <Contact />
     </div>
   );
