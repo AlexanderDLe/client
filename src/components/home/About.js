@@ -20,11 +20,8 @@ export default () => {
         <hr /> */}
         <Row className="py-3">
           <Col md="12" xl="6" className="center-items">
-            <img src={IMBATMAN} className="MyIMG" alt="" />
-          </Col>
-          <Col md="12" xl="6" className="center-items">
             <h1 className="page-title">ABOUT</h1>
-            <hr />
+            <hr className="" />
             <div className="about-text">
               <p className="lead">
                 Web developer based in Garden Grove, California.
@@ -42,6 +39,9 @@ export default () => {
                 Reality via Unreal Engine.
               </p>
             </div>
+          </Col>
+          <Col md="12" xl="6" className="center-items">
+            <img src={IMBATMAN} className="MyIMG" alt="" />
           </Col>
         </Row>
         <Row className="pt-5 d-none">

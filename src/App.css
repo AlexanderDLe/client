@@ -38,6 +38,7 @@ h1 {
 hr {
   width: 50px;
   margin: 15px auto;
+  border-bottom: solid 2px var(--black);
 }
 
 .page-title {
@@ -62,7 +63,7 @@ hr {
 }
 /* BG COLORS */
 .greyBG {
-  background: linear-gradient(90deg, #f1f1f1, #fdfdfd);
+  background: linear-gradient(90deg, #f6f6f6, #ffffff);
 }
 .blueBG {
   background: linear-gradient(90deg, #5c5cff, #dedeff);
@@ -392,7 +393,7 @@ hr {
 }
 /* CONTACT */
 .contact-roof {
-  height: 18vh;
+  height: 20vh;
   width: 100%;
   background-color: rgb(37, 37, 37);
   position: relative;
@@ -415,8 +416,7 @@ hr {
 }
 
 .contact-page {
-  height: 70vh;
-  min-height: 500px;
+  min-height: 40vh;
   width: 100%;
   background-color: rgb(37, 37, 37);
 }
@@ -424,30 +424,10 @@ hr {
   position: relative;
   background: blue;
 } */
-.test {
-  background: white;
-  position: relative;
-  top: 0;
-  left: 0;
+.footer-portfolio {
+  height: 25vh;
+  background-color: rgb(22, 22, 22);
 }
-.test::before,
-.test::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 1px;
-  width: 150px;
-  background: rgba(0, 0, 0, 0.1);
-  z-index: -2;
-}
-.test::before {
-  transform: translateX(-50%) rotate(45deg);
-}
-.test::after {
-  transform: translateX(-50%) rotate(-45deg);
-}
-
 /* XAN */
 .xan-landing {
   background: url('img/Artist.jpeg') no-repeat center;

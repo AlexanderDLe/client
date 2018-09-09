@@ -9,7 +9,7 @@ export default () => {
         <h1 className="OpenSans font-weight-bold page-title text-center ">
           PORTFOLIO
         </h1>
-        <hr />
+        <hr className="" />
         <p className="lead text-center">
           Below are the various projects I've built.
         </p>
