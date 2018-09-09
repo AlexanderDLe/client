@@ -5,6 +5,7 @@ import GithubIcon from '../../img/Github.png';
 import LinkedInIcon from '../../img/LinkedIn.png';
 import XanNavLogo from '../../img/Xan Resized.jpg';
 import NavAnchorLink from '../utility/NavAnchorLink';
+import NavAnchorTag from '../utility/NavAnchorTag';
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -78,7 +79,7 @@ export default class Nav extends Component {
         </Container>
         <div className={`nav-modal ${toggle}`}>
           <ul className={`nav-list ${toggle}`}>
-            <li className="nav-item">
+            <li className="nav-item mb-2">
               <Link to="/artist" onClick={this.toggleOnClick}>
                 <img src={XanNavLogo} className="xan-nav-logo" alt="" />
               </Link>
@@ -103,19 +104,17 @@ export default class Nav extends Component {
               href="/contact"
               onClick={this.toggleOnClick}
             />
-
             <li className="mt-3">
-              <a
-                className="mr-3"
-                href="https://github.com/AlexanderDLe"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="nav-social-icon" src={GithubIcon} alt="" />
-              </a>
-              <a className="" to="/">
-                <img className="nav-social-icon" src={LinkedInIcon} alt="" />
-              </a>
+              <NavAnchorTag
+                href={'https://github.com/AlexanderDLe'}
+                img={GithubIcon}
+                onClick={this.toggleOnClick}
+              />
+              <NavAnchorTag
+                href={'https://www.linkedin.com/in/alexander-le-77a5bb160/'}
+                img={LinkedInIcon}
+                onClick={this.toggleOnClick}
+              />
             </li>
           </ul>
         </div>

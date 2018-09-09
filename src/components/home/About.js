@@ -25,9 +25,8 @@ export default () => {
           <Col md="12" xl="6" className="center-items">
             <div className="about-text">
               <p className="lead">
-                I'm a full stack web developer with experience developing sites
-                for businesses ranging from small shops to construction
-                enterprises.
+                I'm a web developer with experience developing sites for
+                businesses ranging from small shops to construction enterprises.
               </p>
               <p className="text-muted">
                 I'm fluent in the latest versions of fundamental web
@@ -45,7 +44,7 @@ export default () => {
             </div>
           </Col>
         </Row>
-        <Row className="pt-5">
+        <Row className="pt-5 d-none">
           <div className="tech-box m-auto">
             <img src={HTML5} alt="" className="tech-icon" />
             <img src={CSS3} alt="" className="tech-icon" />
