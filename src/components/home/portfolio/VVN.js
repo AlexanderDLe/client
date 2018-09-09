@@ -2,6 +2,8 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import VVNimg from '../../../img/VVN Site.png';
 import MyButton from '../../utility/MyButton';
+import Fade from 'react-reveal';
+
 export default () => {
   return (
     <div className="full-portfolio-page blueBG portfolio-container">
@@ -21,16 +23,18 @@ export default () => {
             suits her unique identity. Check it out.
           </p>
           <div className="m-2 row">
-            <MyButton
-              href={'http://www.vvnzquan.com/'}
-              color={'black'}
-              name={'Website'}
-            />
-            <MyButton
-              href={'https://github.com/AlexanderDLe/VVNSite'}
-              color={'black'}
-              name={'Code'}
-            />
+            <Fade bottom>
+              <MyButton
+                href={'http://www.vvnzquan.com/'}
+                color={'black'}
+                name={'Website'}
+              />
+              <MyButton
+                href={'https://github.com/AlexanderDLe/VVNSite'}
+                color={'black'}
+                name={'Code'}
+              />
+            </Fade>
           </div>
         </div>
       </Container>

@@ -89,14 +89,15 @@ export default class Nav extends Component {
               href="/home"
               onClick={this.toggleOnClick}
             />
-            <NavAnchorLink
-              name="About"
-              href="/about"
-              onClick={this.toggleOnClick}
-            />
+
             <NavAnchorLink
               name="Portfolio"
               href="/portfolio"
+              onClick={this.toggleOnClick}
+            />
+            <NavAnchorLink
+              name="About"
+              href="/about"
               onClick={this.toggleOnClick}
             />
             <NavAnchorLink

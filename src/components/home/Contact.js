@@ -9,7 +9,7 @@ export default () => {
           <h1 className="page-title text-light text-center">CONTACT</h1>
           <hr className="text-light border-bottom border-light" />
           <p className="lead text-light">
-            Email me via AlexanderLeDev@gmail.com or send me a DM.
+            Email me via AlexanderLeDev@gmail.com or DM.
           </p>
         </div>
       </div>

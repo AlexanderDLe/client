@@ -2,6 +2,8 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import GRSIimg from '../../../img/GRSI Site.png';
 import MyButton from '../../utility/MyButton';
+import Fade from 'react-reveal';
+
 export default () => {
   return (
     <div className="full-portfolio-page orangeBG portfolio-container">
@@ -23,16 +25,18 @@ export default () => {
             in the github repository to learn more about the details.
           </p>
           <div className="m-2 row">
-            <MyButton
-              href={'https://github.com/AlexanderDLe/GRSI'}
-              color={'black'}
-              name={'Website'}
-            />
-            <MyButton
-              href={'https://github.com/AlexanderDLe/GRSI'}
-              color={'black'}
-              name={'Code'}
-            />
+            <Fade bottom>
+              <MyButton
+                href={'https://github.com/AlexanderDLe/GRSI'}
+                color={'black'}
+                name={'Website'}
+              />
+              <MyButton
+                href={'https://github.com/AlexanderDLe/GRSI'}
+                color={'black'}
+                name={'Code'}
+              />
+            </Fade>
           </div>
         </div>
       </Container>

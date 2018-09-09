@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import MyLink from '../utility/MyLink';
+import Fade from 'react-reveal';
 
 export default () => {
   return (
@@ -15,7 +16,9 @@ export default () => {
             my page.
           </p>
           <div className="d-flex flex-center">
-            <MyLink name="Explore" color="white" href="/about" />
+            <Fade bottom>
+              <MyLink name="Explore" color="white" href="/portfolio" />
+            </Fade>
           </div>
         </Container>
       </div>

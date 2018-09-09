@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import Lambadaimg from '../../../img/Lambada Site.png';
 import MyButton from '../../utility/MyButton';
+import Fade from 'react-reveal';
 
 export default () => {
   return (
@@ -17,16 +18,18 @@ export default () => {
             easy to get the info you need - it's perfect for a boba shop.
           </p>
           <div className="m-2 row">
-            <MyButton
-              href={'https://github.com/AlexanderDLe/LambadaTea'}
-              color={'black'}
-              name={'Website'}
-            />
-            <MyButton
-              href={'https://github.com/AlexanderDLe/LambadaTea'}
-              color={'black'}
-              name={'Code'}
-            />
+            <Fade bottom>
+              <MyButton
+                href={'https://github.com/AlexanderDLe/LambadaTea'}
+                color={'black'}
+                name={'Website'}
+              />
+              <MyButton
+                href={'https://github.com/AlexanderDLe/LambadaTea'}
+                color={'black'}
+                name={'Code'}
+              />
+            </Fade>
           </div>
         </div>
         <div className="flex-item-img">

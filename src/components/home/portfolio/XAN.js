@@ -3,6 +3,7 @@ import { Container } from 'reactstrap';
 import XANimg from '../../../img/XAN Site.png';
 import MyButton from '../../utility/MyButton';
 import MyLink from '../../utility/MyLink';
+import Fade from 'react-reveal';
 
 export default () => {
   return (
@@ -20,12 +21,14 @@ export default () => {
             video games.
           </p>
           <div className="m-2 row">
-            <MyLink to={'/artist'} color={'black'} name={'Website'} />
-            <MyButton
-              href={'https://github.com/AlexanderDLe/XANTea'}
-              color={'black'}
-              name={'Code'}
-            />
+            <Fade bottom>
+              <MyLink href={'/artist'} color={'black'} name={'Website'} />
+              <MyButton
+                href={'https://github.com/AlexanderDLe/XANTea'}
+                color={'black'}
+                name={'Code'}
+              />
+            </Fade>
           </div>
         </div>
         <div className="flex-item-img">
