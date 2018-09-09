@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import GithubIcon from '../../img/Github.png';
 import LinkedInIcon from '../../img/LinkedIn.png';
 import XanNavLogo from '../../img/Xan Resized.jpg';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import NavAnchorLink from '../utility/NavAnchorLink';
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -83,33 +83,39 @@ export default class Nav extends Component {
                 <img src={XanNavLogo} className="xan-nav-logo" alt="" />
               </Link>
             </li>
-            <li className="nav-item">
-              <AnchorLink href="/home" onClick={this.toggleOnClick}>
-                Home
-              </AnchorLink>
-            </li>
-            <li className="nav-item">
-              <AnchorLink href="/about" onClick={this.toggleOnClick}>
-                About
-              </AnchorLink>
-            </li>
-            <li className="nav-item">
-              <AnchorLink href="/portfolio" onClick={this.toggleOnClick}>
-                Portfolio
-              </AnchorLink>
-            </li>
-            <li className="nav-item">
-              <AnchorLink href="/contact" onClick={this.toggleOnClick}>
-                Contact
-              </AnchorLink>
-            </li>
+            <NavAnchorLink
+              name="Home"
+              href="/home"
+              onClick={this.toggleOnClick}
+            />
+            <NavAnchorLink
+              name="About"
+              href="/about"
+              onClick={this.toggleOnClick}
+            />
+            <NavAnchorLink
+              name="Portfolio"
+              href="/portfolio"
+              onClick={this.toggleOnClick}
+            />
+            <NavAnchorLink
+              name="Contact"
+              href="/contact"
+              onClick={this.toggleOnClick}
+            />
+
             <li className="mt-3">
-              <Link className="mr-3" to="/">
+              <a
+                className="mr-3"
+                href="https://github.com/AlexanderDLe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img className="nav-social-icon" src={GithubIcon} alt="" />
-              </Link>
-              <Link className="" to="/">
+              </a>
+              <a className="" to="/">
                 <img className="nav-social-icon" src={LinkedInIcon} alt="" />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
