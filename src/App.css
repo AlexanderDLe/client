@@ -33,6 +33,11 @@ h1 {
   align-items: center;
   flex-direction: column;
 }
+.center-items-horizontally {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .mx-auto {
   margin: 0 auto;
 }
@@ -421,13 +426,14 @@ hr {
   width: 100%;
   background-color: rgb(37, 37, 37);
 }
-/* .test-box {
-  position: relative;
-  background: blue;
-} */
+/* FOOTER */
 .footer-portfolio {
   height: 25vh;
   background-color: rgb(22, 22, 22);
+}
+.footer-social-icon {
+  height: auto;
+  width: 60px;
 }
 /* XAN */
 .xan-landing {

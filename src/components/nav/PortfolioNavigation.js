@@ -5,7 +5,7 @@ import GithubIcon from '../../img/Github.png';
 import LinkedInIcon from '../../img/LinkedIn.png';
 import XanNavLogo from '../../img/Xan Resized.jpg';
 import NavAnchorLink from '../utility/NavAnchorLink';
-import NavAnchorTag from '../utility/NavAnchorTag';
+import OpenAnchorTag from '../utility/OpenAnchorTag';
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -105,16 +105,20 @@ export default class Nav extends Component {
               href="/contact"
               onClick={this.toggleOnClick}
             />
-            <li className="mt-3">
-              <NavAnchorTag
+            <li className="my-3">
+              <OpenAnchorTag
                 href={'https://github.com/AlexanderDLe'}
                 img={GithubIcon}
                 onClick={this.toggleOnClick}
+                tag="nav"
               />
-              <NavAnchorTag
+            </li>
+            <li className="my-3">
+              <OpenAnchorTag
                 href={'https://www.linkedin.com/in/alexander-le-77a5bb160/'}
                 img={LinkedInIcon}
                 onClick={this.toggleOnClick}
+                tag="nav"
               />
             </li>
           </ul>
