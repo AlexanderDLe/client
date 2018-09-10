@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Home from './components/home/Home';
+import Home from './components/dev/Home';
 import Xan_Page from './components/xan/Xan_Page';
 
 class App extends Component {
