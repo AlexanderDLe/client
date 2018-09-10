@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import NavAnchorLink from '../utility/NavAnchorLink';
 
-export default class Nav extends Component {
+export default class XanNav extends Component {
   constructor() {
     super();
     this.state = {
@@ -15,7 +15,7 @@ export default class Nav extends Component {
   toggleOnClick() {
     if (!this.state.toggle) {
       this.setState({
-        toggle: 'active'
+        toggle: 'active-X'
       });
     }
     if (this.state.toggle) {
@@ -42,9 +42,13 @@ export default class Nav extends Component {
           <div className="xan-nav-lining" />
           <ul className={`nav-list xan-nav-list ${toggle}`}>
             <li className="nav-item mb-2">
-              <Link to="/" onClick={this.toggleOnClick}>
+              <NavLink
+                to="/"
+                activeClassName="active"
+                onClick={this.toggleOnClick}
+              >
                 <h1>DEV</h1>
-              </Link>
+              </NavLink>
             </li>
             <NavAnchorLink
               name="Home"

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import GithubIcon from '../../img/Github.png';
 import LinkedInIcon from '../../img/LinkedIn.png';
 import XanNavLogo from '../../img/Xan Resized.jpg';
@@ -23,7 +23,7 @@ function debounce(func, wait, immediate) {
   };
 }
 
-export default class Nav extends Component {
+export default class DevNav extends Component {
   constructor() {
     super();
     this.state = {
@@ -54,7 +54,7 @@ export default class Nav extends Component {
   toggleOnClick() {
     if (!this.state.toggle) {
       this.setState({
-        toggle: 'active'
+        toggle: 'active-X'
       });
     }
     if (this.state.toggle) {
@@ -80,9 +80,13 @@ export default class Nav extends Component {
         <div className={`dev-nav-modal nav-modal ${toggle}`}>
           <ul className={`nav-list ${toggle}`}>
             <li className="nav-item mb-2">
-              <Link to="/artist" onClick={this.toggleOnClick}>
+              <NavLink
+                to="/artist"
+                activeClassName="active"
+                onClick={this.toggleOnClick}
+              >
                 <img src={XanNavLogo} className="xan-nav-logo" alt="" />
-              </Link>
+              </NavLink>
             </li>
             <NavAnchorLink
               name="Home"
