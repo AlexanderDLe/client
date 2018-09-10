@@ -1,4 +1,33 @@
+/* TEST */
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
 /* GENERAL */
+body {
+  background: black;
+}
 :root {
   --darken: rgba(0, 0, 0, 0.6);
   --xan-darken: rgba(30, 0, 0, 0.75);
@@ -61,13 +90,6 @@ hr {
 }
 .text-muted-custom {
   color: rgba(0, 0, 0, 0.8);
-}
-/* TRANSITION */
-.page {
-  position: absolute;
-  top: 100px;
-  left: 0;
-  right: 0;
 }
 
 /* SHADOWS */
@@ -350,6 +372,7 @@ hr {
 /* ABOUT */
 .about-page {
   padding: 100px 0px;
+  background: white;
 }
 .MyIMG {
   height: auto;

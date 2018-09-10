@@ -5,7 +5,7 @@ import XanAbout from './XanAbout';
 
 export default () => {
   return (
-    <div className="xan-page bg-dark">
+    <div className="page xan-page bg-dark">
       <XanNav />
       <XanLanding />
       <XanAbout />

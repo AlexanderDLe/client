@@ -8,7 +8,7 @@ import DevNav from './DevNav';
 
 export default () => {
   return (
-    <div>
+    <div className="page">
       <DevNav />
       <Landing />
       <Portfolio />

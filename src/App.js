@@ -2,26 +2,33 @@ import React, { Component } from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import ScrollToTop from './components/utility/ScrollToTop';
 
 import Home from './components/dev/Home';
-import XanPage from './components/xan/XanPage';
+import XanHome from './components/xan/XanHome';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route
-          render={({ location }) => (
-            <TransitionGroup>
-              <CSSTransition key={location.key} timeout={300} classNames="fade">
-                <Switch>
-                  <Route exact path="/" component={Home} />
-                  <Route exact path="/artist" component={XanPage} />
-                </Switch>
-              </CSSTransition>
-            </TransitionGroup>
-          )}
-        />
+        <ScrollToTop>
+          <Route
+            render={({ location }) => (
+              <TransitionGroup>
+                <CSSTransition
+                  key={location.key}
+                  timeout={300}
+                  classNames="fade"
+                >
+                  <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/artist" component={XanHome} />
+                  </Switch>
+                </CSSTransition>
+              </TransitionGroup>
+            )}
+          />
+        </ScrollToTop>
       </div>
     );
   }
