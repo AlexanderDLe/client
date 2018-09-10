@@ -72,12 +72,12 @@ export default class Nav extends Component {
         <Container className="nav-container">
           <div
             onClick={this.toggleOnClick}
-            className={`nav-icon ${toggle} ${iconColor}`}
+            className={`nav-icon dev-nav-icon ${toggle} ${iconColor}`}
           >
             <div className="hamburger" />
           </div>
         </Container>
-        <div className={`nav-modal ${toggle}`}>
+        <div className={`dev-nav-modal nav-modal ${toggle}`}>
           <ul className={`nav-list ${toggle}`}>
             <li className="nav-item mb-2">
               <Link to="/artist" onClick={this.toggleOnClick}>
