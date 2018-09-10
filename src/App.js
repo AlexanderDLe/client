@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Home from './components/dev/Home';
-import Xan_Page from './components/xan/Xan_Page';
+import XanPage from './components/xan/XanPage';
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Route exact path="/" component={Home} />
-          <Route exact path="/artist" component={Xan_Page} />
+          <Route exact path="/artist" component={XanPage} />
         </div>
       </BrowserRouter>
     );

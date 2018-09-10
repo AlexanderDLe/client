@@ -4,12 +4,12 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
-import PortfolioNavigation from '../nav/PortfolioNavigation';
+import DevNav from './DevNav';
 
 export default () => {
   return (
     <div>
-      <PortfolioNavigation />
+      <DevNav />
       <Landing />
       <Portfolio />
       <About />

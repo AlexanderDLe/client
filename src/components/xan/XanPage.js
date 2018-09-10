@@ -1,5 +1,5 @@
 import React from 'react';
-import XanLanding from './Xan_Landing';
+import XanLanding from './XanLanding';
 
 export default () => {
   return (
