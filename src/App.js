@@ -17,10 +17,14 @@ class App extends Component {
               <TransitionGroup>
                 <CSSTransition
                   key={location.key}
-                  timeout={300}
+                  timeout={1000}
                   classNames="fade"
+                  onExit={node => {
+                    node.style.position = 'fixed';
+                    node.style.top = -1 * window.scrollY + 'px';
+                  }}
                 >
-                  <Switch>
+                  <Switch location={location}>
                     <Route exact path="/" component={Home} />
                     <Route path="/artist" component={XanHome} />
                   </Switch>

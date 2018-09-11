@@ -1,10 +1,20 @@
 /* TEST */
+.app-nav {
+  position: fixed;
+  z-index: 10;
+}
+.app-nav a {
+  margin: 25px;
+  font-size: 3rem;
+}
 .page {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
 }
+
+/* FADE */
 .fade-appear,
 .fade-enter {
   opacity: 0;
@@ -13,7 +23,7 @@
 .fade-appear-active,
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 300ms linear 150ms;
+  transition: opacity 1000ms linear 500ms;
 }
 
 .fade-exit {
@@ -22,8 +32,9 @@
 
 .fade-exit.fade-exit-active {
   opacity: 0;
-  transition: opacity 150ms linear;
+  transition: opacity 500ms linear;
 }
+
 /* GENERAL */
 body {
   background: black;
@@ -358,7 +369,7 @@ hr {
 }
 /* ABILITIES */
 .p-card {
-  padding: 25px;
+  padding: 15px;
 }
 .abilities-icon {
   font-size: 3.5rem;
@@ -377,14 +388,9 @@ hr {
 .MyIMG {
   height: auto;
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
   border-radius: 50%;
   box-shadow: 0 5px 20px 4px rgba(0, 0, 0, 0.3);
-}
-
-.Abilities-BG {
-  /* min-height: 35vh; */
-  /* padding: 0px 0px; */
 }
 .abilities-page {
   height: 100%;
@@ -421,6 +427,7 @@ hr {
 .portfolio-intro {
   min-height: 300px;
   padding: 100px 0px;
+  background-color: white;
 }
 
 .full-portfolio-page {
@@ -461,7 +468,7 @@ hr {
 .contact-roof {
   height: 20vh;
   width: 100%;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(34, 34, 34);
   position: relative;
 }
 .contact-roof::before {
@@ -484,7 +491,7 @@ hr {
 .contact-page {
   min-height: 40vh;
   width: 100%;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(34, 34, 34);
 }
 /* FOOTER */
 .footer-portfolio {
