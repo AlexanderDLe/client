@@ -23,7 +23,7 @@ export default () => {
             <h1 className="page-title">ABOUT</h1>
             <hr className="" />
             <div className="about-text">
-              <p className="lead">
+              <p className="lead text-center">
                 Web developer based in Garden Grove, California.
               </p>
               <p className="text-muted">
@@ -40,7 +40,7 @@ export default () => {
               </p>
             </div>
           </Col>
-          <Col md="12" xl="6" className="center-items">
+          <Col md="12" xl="6" className="center-items py-5">
             <img src={IMBATMAN} className="MyIMG" alt="" />
           </Col>
         </Row>

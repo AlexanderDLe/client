@@ -402,9 +402,7 @@ hr {
   border: 1px solid black;
   max-width: 300px;
 }
-.about-text {
-  padding: 25px;
-}
+
 @media (max-width: 767px) {
   .about-text {
     padding: 0px;
@@ -424,12 +422,13 @@ hr {
   margin: 20px;
 }
 /* PORTFOLIO */
+#portfolio {
+  background-color: white;
+}
 .portfolio-intro {
   min-height: 300px;
   padding: 100px 0px;
-  background-color: white;
 }
-
 .full-portfolio-page {
   min-height: 100vh;
   width: 100%;
@@ -463,6 +462,21 @@ hr {
 }
 .portfolio-text {
   padding: 0 30px;
+}
+/* PORTFOLIO GALLERY */
+.portfolio-gallery {
+  margin: 0 auto;
+}
+.portfolio-col {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  padding: 5px !important;
+}
+.portfolio-gallery-item {
+  width: 100%;
+  height: 100%;
+  background: blue;
 }
 /* CONTACT */
 .contact-roof {
@@ -513,8 +527,8 @@ hr {
 }
 .xan-landing-logo {
   height: auto;
-  width: 90%;
-  max-width: 767px;
+  width: 75%;
+  max-width: 600px;
 }
 .xan-nav-logo {
   height: auto;

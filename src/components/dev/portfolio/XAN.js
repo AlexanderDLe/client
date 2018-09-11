@@ -16,9 +16,8 @@ export default () => {
             My personal artist page for my music and interests.
           </p>
           <p className="text-muted-custom">
-            When I'm not coding, I could be found with my girlfriend, making
-            music, learning how to develop VR within Unreal Engine, or playing
-            video games.
+            My page for my musical alias, Xan. Features music, audio services,
+            interests, and a bit of background.
           </p>
           <div className="m-2 row">
             <Fade bottom>
