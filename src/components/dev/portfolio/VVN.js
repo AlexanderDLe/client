@@ -6,9 +6,9 @@ import Fade from 'react-reveal';
 
 export default () => {
   return (
-    <div className="full-portfolio-page blueBG portfolio-container">
-      <Container className="portfolio-page py-5">
-        <div className="flex-item-img">
+    <div className="portfolio-container">
+      <Container>
+        <div className="flex-item-img text-center">
           <img src={VVNimg} className="portfolio-icon shadowed" alt="" />
         </div>
         <div className="py-5 center-items flex-item-text portfolio-text">

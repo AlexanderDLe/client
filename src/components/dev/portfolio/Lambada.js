@@ -6,8 +6,11 @@ import Fade from 'react-reveal';
 
 export default () => {
   return (
-    <div className="full-portfolio-page greenBG portfolio-container">
-      <Container className="portfolio-reverse-page py-5">
+    <div className="portfolio-container">
+      <Container>
+        <div className="flex-item-img text-center">
+          <img src={Lambadaimg} className="portfolio-icon shadowed" alt="" />
+        </div>
         <div className="flex-item-text reverse-item py-5 center-items portfolio-text">
           <h1 className="OpenSans page-title text-center ">LAMBADA</h1>
           <hr />
@@ -31,9 +34,6 @@ export default () => {
               />
             </Fade>
           </div>
-        </div>
-        <div className="flex-item-img">
-          <img src={Lambadaimg} className="portfolio-icon shadowed" alt="" />
         </div>
       </Container>
     </div>
