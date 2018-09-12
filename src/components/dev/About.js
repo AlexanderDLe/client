@@ -14,7 +14,7 @@ import IMBATMAN from '../../img/IMBATMAN.jpg';
 
 export default () => {
   return (
-    <div id="about" className="about-page">
+    <div id="about" className="about-page page-padding">
       <Container className="">
         {/* <h1 className="page-title text-center">ABOUT</h1>
         <hr /> */}
@@ -28,15 +28,13 @@ export default () => {
               </p>
               <p className="text-muted">
                 I'm a lifelong hard working self-learner with a passion for
-                animation, intuitive UI/UX, and buildin' stuff. I always strive
-                to learn new things and to become the best coder I can possibly
-                be.
+                animation, intuitive UI/UX, and buildin' stuff. I'm always
+                willing and striving to learn new things to improve my skills.
               </p>
               <p className="text-muted">
-                When I'm not coding, you can find me making music, playing
-                computer games, hitting the gym, or chilling with my cat.
-                Recently I've started learning how to develop for Virtual
-                Reality via Unreal Engine.
+                When I'm not coding, you can find me making music, gaming,
+                hitting the gym, or chilling with my cat. Recently I've started
+                learning how to develop for Virtual Reality via Unreal Engine.
               </p>
             </div>
           </Col>

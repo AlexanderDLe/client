@@ -10,8 +10,8 @@ export default () => {
           <hr className="text-light border-bottom border-light" />
 
           <p className="text-light centered-text text-center">
-            Questions or comments? I'd love to hear from you and I'm to projects
-            and opportunities! Email me via{' '}
+            Questions or comments? I'm open to projects and opportunities and
+            I'd love to hear from you! Email me via{' '}
             <strong className="lead OpenSans">AlexanderLeDev@gmail.com </strong>{' '}
             or DM.
           </p>
