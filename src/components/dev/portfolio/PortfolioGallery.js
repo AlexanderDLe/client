@@ -8,8 +8,6 @@ export default () => {
       <Row className="center-items-horizontally">
         <PortfolioGalleryItem num="1" />
         <PortfolioGalleryItem num="2" />
-      </Row>
-      <Row className="center-items-horizontally">
         <PortfolioGalleryItem num="3" />
         <PortfolioGalleryItem num="4" />
       </Row>

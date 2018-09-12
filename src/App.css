@@ -41,7 +41,7 @@ body {
 }
 :root {
   --darken: rgba(0, 0, 0, 0.6);
-  --xan-darken: rgba(60, 0, 0, 0.65);
+  --xan-darken: rgba(50, 0, 0, 0.65);
   --white: rgba(255, 255, 255, 0.9);
   --black: rgba(0, 0, 0, 0.75);
   --applegrey: #f3f3f3;
@@ -468,24 +468,38 @@ hr {
   margin: 0 auto;
 }
 .portfolio-col {
-  width: 100%;
-  max-width: 450px;
-  height: 450px;
-  padding: 5px !important;
+  width: 275px;
+  height: 275px;
+  padding: 3px !important;
+}
+@media (min-width: 1440px) {
+  .portfolio-col {
+    width: 325px;
+    height: 325px;
+  }
+}
+@media (min-width: 1840px) {
+  .portfolio-col {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 1199px) {
+  .portfolio-col {
+    width: 300px;
+    height: 300px;
+  }
 }
 .portfolio-gallery-inner {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0);
-  transition: var(--trans-standard);
 }
-.portfolio-col:hover .portfolio-gallery-inner {
-  background: rgba(200, 200, 200, 0.8);
-  transition: var(--trans-standard);
-}
+
 .portfolio-gallery-item {
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 .portfolio-gallery-item-1 {
   background: url('img/Gallery\ Xan.png') no-repeat center;
