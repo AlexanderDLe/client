@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import MyLink from '../utility/MyLink';
+import SmoothScrollButton from '../utility/SmoothScrollButton';
 import Fade from 'react-reveal';
 
 export default () => {
@@ -17,7 +17,11 @@ export default () => {
           </p>
           <div className="d-flex flex-center">
             <Fade bottom>
-              <MyLink name="Explore" color="white" href="/portfolio" />
+              <SmoothScrollButton
+                name="Explore"
+                color="white"
+                href="/portfolio"
+              />
             </Fade>
           </div>
         </Container>

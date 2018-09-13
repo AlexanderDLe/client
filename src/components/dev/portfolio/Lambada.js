@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import Lambadaimg from '../../../img/Lambada Site.png';
-import MyButton from '../../utility/MyButton';
+import MyAnchorButton from '../../utility/MyAnchorButton';
 import Fade from 'react-reveal';
 import PortfolioGalleryImg from './PortfolioGalleryImg';
 
@@ -11,8 +11,7 @@ export default () => {
       <Container>
         <Fade>
           <PortfolioGalleryImg img={Lambadaimg} />
-
-          <div className="flex-item-text reverse-item py-5 center-items portfolio-text">
+          <div className="center-items portfolio-text">
             <h1 className="OpenSans page-title text-center ">LAMBADA</h1>
             <hr />
             <p className="lead">A simplistic site for a sweet boba shop.</p>
@@ -23,12 +22,12 @@ export default () => {
             </p>
             <div className="m-2 row">
               <Fade bottom>
-                <MyButton
+                <MyAnchorButton
                   href={'https://github.com/AlexanderDLe/LambadaTea'}
                   color={'black'}
                   name={'Website'}
                 />
-                <MyButton
+                <MyAnchorButton
                   href={'https://github.com/AlexanderDLe/LambadaTea'}
                   color={'black'}
                   name={'Code'}

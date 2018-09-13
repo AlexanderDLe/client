@@ -450,9 +450,8 @@ hr {
   display: flex;
   flex-wrap: wrap-reverse;
 }
-
 .portfolio-text {
-  padding: 0 30px;
+  padding-bottom: 30px;
 }
 /* PORTFOLIO GALLERY */
 .portfolio-gallery {
@@ -574,10 +573,6 @@ hr {
 @media (max-width: 1199px) {
   .reverse-page {
     flex-wrap: wrap-reverse;
-  }
-
-  .portfolio-text {
-    padding: 0 0;
   }
 }
 

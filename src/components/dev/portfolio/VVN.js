@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import VVNimg from '../../../img/VVN Site.png';
-import MyButton from '../../utility/MyButton';
+import MyAnchorButton from '../../utility/MyAnchorButton';
 import Fade from 'react-reveal';
 import PortfolioGalleryImg from './PortfolioGalleryImg';
 
@@ -11,7 +11,7 @@ export default () => {
       <Container>
         <Fade>
           <PortfolioGalleryImg img={VVNimg} />
-          <div className="py-5 center-items flex-item-text portfolio-text">
+          <div className="center-items portfolio-text">
             <h1 className="OpenSans page-title text-center">VVN</h1>
             <hr />
             <p className="lead text-align-left">
@@ -24,12 +24,12 @@ export default () => {
             </p>
             <div className="m-2 row">
               <Fade bottom>
-                <MyButton
+                <MyAnchorButton
                   href={'http://www.vvnzquan.com/'}
                   color={'black'}
                   name={'Website'}
                 />
-                <MyButton
+                <MyAnchorButton
                   href={'https://github.com/AlexanderDLe/VVNSite'}
                   color={'black'}
                   name={'Code'}

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import XANimg from '../../../img/XAN Site.png';
-import MyButton from '../../utility/MyButton';
-import MyLink from '../../utility/MyLink';
+import MyAnchorButton from '../../utility/MyAnchorButton';
+import MyLinkButton from '../../utility/MyLinkButton';
 import Fade from 'react-reveal';
 import PortfolioGalleryImg from './PortfolioGalleryImg';
 
@@ -12,7 +12,7 @@ export default () => {
       <Container>
         <Fade>
           <PortfolioGalleryImg img={XANimg} />
-          <div className="reverse-item py-5 center-items portfolio-text">
+          <div className="center-items portfolio-text">
             <h1 className="OpenSans page-title text-center">XAN</h1>
             <hr />
             <p className="lead">
@@ -24,8 +24,8 @@ export default () => {
             </p>
             <div className="m-2 row">
               <Fade bottom>
-                <MyLink href={'/artist'} color={'black'} name={'Website'} />
-                <MyButton
+                <MyLinkButton to={'/artist'} color={'black'} name={'Website'} />
+                <MyAnchorButton
                   href={'https://github.com/AlexanderDLe/XANTea'}
                   color={'black'}
                   name={'Code'}
