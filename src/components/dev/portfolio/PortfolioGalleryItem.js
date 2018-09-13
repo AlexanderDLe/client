@@ -11,6 +11,8 @@ export default props => {
       >
         <div className="portfolio-gallery-inner">
           <div className="portfolio-gallery-inner-text lead OpenSans">VIEW</div>
+          <div className="portfolio-gallery-lines-x" />
+          <div className="portfolio-gallery-lines-y" />
         </div>
       </div>
     </Col>

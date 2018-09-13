@@ -468,25 +468,6 @@ hr {
   padding: 3px !important;
 }
 
-@media (min-width: 1440px) {
-  .portfolio-col {
-    width: 325px;
-    height: 325px;
-  }
-}
-@media (min-width: 1840px) {
-  .portfolio-col {
-    width: 400px;
-    height: 400px;
-  }
-}
-@media (max-width: 1199px) {
-  .portfolio-col {
-    width: 300px;
-    height: 300px;
-  }
-}
-
 .portfolio-gallery-item {
   width: 100%;
   height: 100%;
@@ -504,10 +485,11 @@ hr {
 }
 .portfolio-gallery-inner-text {
   font-size: 1.5rem;
-  padding: 0px 25px;
+  padding: 0px 50px;
   border: 2px solid rgba(255, 255, 255, 0);
   border-radius: 25px;
   color: rgba(0, 0, 0, 0);
+  transform: translateY(-25%);
   transition: var(--trans-standard);
 }
 .portfolio-gallery-item:hover .portfolio-gallery-inner {
@@ -517,9 +499,58 @@ hr {
 .portfolio-gallery-item:hover .portfolio-gallery-inner-text {
   color: rgba(225, 225, 225, 1);
   border-color: var(--white);
-
+  transform: translateY(0%);
   transition: var(--trans-standard);
 }
+/* PORTFOLIO ITEM LINES FX */
+.portfolio-gallery-lines-x,
+.portfolio-gallery-lines-y {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.portfolio-gallery-lines-x::before,
+.portfolio-gallery-lines-x::after,
+.portfolio-gallery-lines-y::before,
+.portfolio-gallery-lines-y::after {
+  content: '';
+  position: absolute;
+  transition: var(--trans-standard);
+  background: white;
+}
+.portfolio-gallery-lines-x::before,
+.portfolio-gallery-lines-x::after {
+  height: 3px;
+  width: 100%;
+}
+.portfolio-gallery-lines-x::before {
+  transform: translate(100%);
+}
+.portfolio-gallery-lines-x::after {
+  bottom: 0;
+  transform: translate(-100%);
+}
+
+.portfolio-gallery-lines-y::before,
+.portfolio-gallery-lines-y::after {
+  height: 100%;
+  width: 3px;
+}
+.portfolio-gallery-lines-y::before {
+  transform: translateY(-100%);
+}
+.portfolio-gallery-lines-y::after {
+  right: 0;
+  transform: translateY(100%);
+}
+.portfolio-gallery-item:hover .portfolio-gallery-lines-x:before,
+.portfolio-gallery-item:hover .portfolio-gallery-lines-x:after,
+.portfolio-gallery-item:hover .portfolio-gallery-lines-y:before,
+.portfolio-gallery-item:hover .portfolio-gallery-lines-y:after {
+  transform: translate(0%);
+}
+/* PORTFOLIO GALLERY ITEM BACKGROUNDS */
 .portfolio-gallery-item-1 {
   background: url('img/Gallery\ Xan.png') no-repeat center;
   background-size: cover;
@@ -536,7 +567,29 @@ hr {
   background: url('img/Gallery\ Lambada.png') no-repeat center;
   background-size: cover;
 }
-
+/* PORTFOLIO MEDIA QUERIES */
+@media (min-width: 1440px) {
+  .portfolio-col {
+    width: 325px;
+    height: 325px;
+  }
+}
+@media (min-width: 1840px) {
+  .portfolio-col {
+    width: 400px;
+    height: 400px;
+  }
+  .portfolio-gallery-inner-text {
+    font-size: 2rem;
+    padding: 0px 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .portfolio-col {
+    width: 300px;
+    height: 300px;
+  }
+}
 /* CONTACT */
 .contact-roof {
   height: 20vh;
@@ -587,7 +640,7 @@ hr {
 .xan-landing-logo {
   height: auto;
   width: 75%;
-  max-width: 600px;
+  max-width: 650px;
 }
 .xan-nav-logo {
   height: auto;
