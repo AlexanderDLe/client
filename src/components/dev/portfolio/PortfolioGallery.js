@@ -32,14 +32,15 @@ export default class PortfolioGallery extends Component {
     this.setState({ gallerySelect: <GRSI /> });
   }
   render() {
+    const { gallerySelect } = this.state;
     return (
       <Container className="conditional-padding">
         <div className="portfolio-gallery-select">
-          {this.state.gallerySelect}
+          {gallerySelect ? gallerySelect : 'Loading'}
         </div>
         <Row className="center-items-horizontally">
-          <PortfolioGalleryItem onClick={this.selectXANOnClick} num="1" />
           <PortfolioGalleryItem onClick={this.selectVVNOnClick} num="2" />
+          <PortfolioGalleryItem onClick={this.selectXANOnClick} num="1" />
           <PortfolioGalleryItem onClick={this.selectGRSIOnClick} num="3" />
           <PortfolioGalleryItem onClick={this.selectLambadaOnClick} num="4" />
         </Row>
