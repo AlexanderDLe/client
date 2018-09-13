@@ -648,7 +648,8 @@ hr {
   position: relative;
 }
 .robert-frost-quote p {
-  font-size: 1.6rem;
+  font-size: 2rem;
+  font-family: Cedarville Cursive;
 }
 /* MEDIA QUERIES */
 @media (max-width: 1199px) {

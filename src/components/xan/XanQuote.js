@@ -15,14 +15,18 @@ class XanQuote extends Component {
   }
 
   handleScroll() {
-    let frostQuote = document.querySelector('.robert-frost-quote');
-    let frostTop = window.scrollY - frostQuote.offsetTop;
-    frostQuote.style.top = frostTop * -0.22 + -50 + 'px';
-    console.log(window.scrollY, frostQuote.offsetTop);
+    if (document.querySelector('.robert-frost-quote')) {
+      let frostQuote = document.querySelector('.robert-frost-quote');
+      let frostTop = window.scrollY - frostQuote.offsetTop;
+      frostQuote.style.top = frostTop * -0.22 + -50 + 'px';
+      console.log(window.scrollY, frostQuote.offsetTop);
+    }
   }
   resizeWindow() {
-    let frostQuote = document.querySelector('.robert-frost-quote');
-    console.log(window.scrollY, frostQuote.offsetTop);
+    if (document.querySelector('.robert-frost-quote')) {
+      let frostQuote = document.querySelector('.robert-frost-quote');
+      console.log(window.scrollY, frostQuote.offsetTop);
+    }
   }
 
   render() {
