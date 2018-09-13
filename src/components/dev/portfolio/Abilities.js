@@ -6,7 +6,7 @@ export default () => {
   return (
     <Container className="pt-5">
       <Row className="text-center">
-        <Col lg="4" className="p-card">
+        <Col lg="4" className="p-card mt-4">
           <Fade left>
             <i className="abilities-icon fas fa-mobile" />
             <h1 className="pb-2 pt-3 OpenSans">Responsive</h1>
@@ -15,7 +15,7 @@ export default () => {
             </p>
           </Fade>
         </Col>
-        <Col lg="4" className="p-card">
+        <Col lg="4" className="p-card mt-4">
           <Fade bottom>
             <i id="test" className="abilities-icon fas fa-atom" />
             <h1 className="pb-2 pt-3 OpenSans">Modern</h1>
@@ -24,7 +24,7 @@ export default () => {
             </p>
           </Fade>
         </Col>
-        <Col lg="4" className="p-card">
+        <Col lg="4" className="p-card mt-4">
           <Fade right>
             <i className="abilities-icon fas fa-lightbulb" />
             <h1 className="pb-2 pt-3 OpenSans">Dynamic</h1>

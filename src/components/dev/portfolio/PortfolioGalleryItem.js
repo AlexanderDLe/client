@@ -9,7 +9,9 @@ export default props => {
         onClick={onClick}
         className={`portfolio-gallery-item portfolio-gallery-item-${num}`}
       >
-        <div className="portfolio-gallery-inner" />
+        <div className="portfolio-gallery-inner">
+          <div className="portfolio-gallery-inner-text lead OpenSans">VIEW</div>
+        </div>
       </div>
     </Col>
   );
