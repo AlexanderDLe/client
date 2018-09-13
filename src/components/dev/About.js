@@ -32,6 +32,11 @@ export default () => {
                 willing and striving to learn new things to improve my skills.
               </p>
               <p className="text-muted">
+                I would love to be in a challenging environment where I'm always
+                learning new things and broadening the scope of my knowledge and
+                experience. I value being humble and keeping an open mind.
+              </p>
+              <p className="text-muted">
                 When I'm not coding, you can find me making music, gaming,
                 hitting the gym, or chilling with my cat. Recently I've started
                 learning how to develop for Virtual Reality via Unreal Engine.
