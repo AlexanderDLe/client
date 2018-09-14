@@ -2,6 +2,7 @@ import React from 'react';
 import XanLanding from './XanLanding';
 import XanNav from './XanNav';
 import XanQuote from './XanQuote';
+import XanMusic from './XanMusic';
 
 export default () => {
   return (
@@ -9,6 +10,7 @@ export default () => {
       <XanNav />
       <XanLanding />
       <XanQuote />
+      <XanMusic />
     </div>
   );
 };

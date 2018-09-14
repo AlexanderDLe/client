@@ -18,7 +18,7 @@ class XanQuote extends Component {
     if (document.querySelector('.robert-frost-quote')) {
       let frostQuote = document.querySelector('.robert-frost-quote');
       let frostTop = window.scrollY - frostQuote.offsetTop;
-      frostQuote.style.top = frostTop * -0.22 + -50 + 'px';
+      frostQuote.style.top = frostTop * -0.22 + -60 + 'px';
       console.log(window.scrollY, frostQuote.offsetTop);
     }
   }
