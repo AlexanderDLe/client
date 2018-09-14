@@ -4,7 +4,7 @@ import Abilities from './Abilities';
 
 export default () => {
   return (
-    <div className="portfolio-intro center-items">
+    <div className="portfolio-intro page-padding center-items">
       <Container className="conditional-padding mb-4">
         <h1 className="OpenSans font-weight-bold page-title text-center ">
           PORTFOLIO
