@@ -74,6 +74,11 @@ hr {
   margin: 15px auto;
   border-bottom: solid 2px var(--black);
 }
+.hr-white {
+  width: 50px;
+  margin: 15px auto;
+  border-bottom: solid 2px var(--white);
+}
 
 .page-title {
   font-size: 3.2rem;
@@ -524,6 +529,14 @@ hr {
   --xan-bg: #0c0909;
   --xan-light: rgba(248, 241, 241, 0.75);
 }
+.xan-title {
+  font-size: 4.5rem;
+  font-family: Raleway;
+}
+.xan-text {
+  font-size: 1.1rem;
+  width: 100%;
+}
 /* XAN NAV */
 .xan-nav-modal {
   background: rgb(14, 14, 14);
@@ -593,6 +606,11 @@ hr {
   background: url('img/Headphones.jpg') no-repeat center 0px;
   background-size: cover;
   z-index: -1;
+}
+.musicBox {
+  width: 90%;
+  max-width: 800px;
+  height: 450px;
 }
 
 /* MEDIA QUERIES */

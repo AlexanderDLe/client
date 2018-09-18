@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import XanLanding from './XanLanding';
 import XanNav from './XanNav';
 import XanQuote from './XanQuote';
-// import XanMusic from './XanMusic';
+import XanMusic from './XanMusic';
 
 class XanHome extends Component {
   constructor(props) {
@@ -28,7 +28,7 @@ class XanHome extends Component {
     if (document.querySelector('.musicHero')) {
       let musicHero = document.querySelector('.musicHero');
       let musicHeroTop = window.scrollY - musicHero.offsetTop;
-      musicHero.style.backgroundPositionY = musicHeroTop * -0.12 + 'px';
+      musicHero.style.backgroundPositionY = musicHeroTop * -0.15 + 'px';
       console.log(window.scrollY, musicHero.offsetTop);
     }
   }
@@ -45,11 +45,7 @@ class XanHome extends Component {
         <XanNav />
         <XanLanding />
         <XanQuote />
-        {/* <XanMusic /> */}
-        <div id="music" className="full-page center-items page-padding">
-          <h1 className="text-light display-1">MUSIC</h1>
-          <div className="musicHero" />
-        </div>
+        <XanMusic />
       </div>
     );
   }
