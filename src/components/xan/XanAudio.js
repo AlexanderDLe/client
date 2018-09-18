@@ -5,10 +5,10 @@ export default () => {
   return (
     <div id="music" className="full-page center-items page-padding">
       <Container>
-        <div className="musicHero musicHero-1" />
+        <div className="musicHero-2" />
         <Row>
           <Col md="12" lg="6" className="center-items text-light mb-5">
-            <h1 className="text-light OpenSans xan-title">MUSIC</h1>
+            <h1 className="text-light OpenSans xan-title">Audio</h1>
             <hr className="hr-white" />
             <p className="xan-text">
               I've been producing music for about 7 years. As a fan of all kinds
