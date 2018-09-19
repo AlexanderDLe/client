@@ -5,6 +5,10 @@ import XanNav from './XanNav';
 import XanQuote from './XanQuote';
 import XanMusic from './XanMusic';
 import XanAudio from './XanAudio';
+import XanAbout from './XanAbout';
+import XanDown from './XanDown';
+import XanUp from './XanUp';
+import XanContact from './XanContact';
 
 class XanHome extends Component {
   constructor(props) {
@@ -52,6 +56,10 @@ class XanHome extends Component {
         <XanQuote />
         <XanMusic />
         <XanAudio />
+        <XanDown />
+        <XanAbout />
+        <XanUp />
+        <XanContact />
       </div>
     );
   }
