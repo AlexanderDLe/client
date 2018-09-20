@@ -8,6 +8,7 @@ import XanAbout from './XanAbout';
 import XanDown from './XanDown';
 import XanUp from './XanUp';
 import XanContact from './XanContact';
+import XanFooter from './XanFooter';
 
 class XanHome extends Component {
   constructor(props) {
@@ -59,6 +60,7 @@ class XanHome extends Component {
         <XanAbout />
         <XanUp />
         <XanContact />
+        <XanFooter />
       </div>
     );
   }
