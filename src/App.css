@@ -634,6 +634,7 @@ hr {
 /* XAN ABOUT */
 #xan-about {
   background: var(--xan-red-med);
+  padding: 50px 0;
 }
 /* XAN DOWN/UP */
 .xan-down-page,
