@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import { Fade } from 'react-reveal';
+import SmoothScrollButton from '../utility/SmoothScrollButton';
 
 export default () => {
   return (
@@ -11,19 +13,29 @@ export default () => {
             <h1 className="xan-text-light OpenSans xan-title">AUDIO</h1>
             <hr className="hr-white" />
             <p className="xan-text">
-              I've been producing music for about 7 years. As a fan of all kinds
-              of music - ranging from cinematic to electronic - I enjoy
-              exploring and experimenting with different genres.
+              Audio engineering is the process in which one uses various tools
+              such as equalizers, dynamic processors, saturators, etc. to
+              manipulate audio to achieve higher quality sound. Aspects that can
+              be enhanced include, but are not limited to, clarity, depth,
+              dynamics, and character.
             </p>
             <p className="xan-text">
-              What is amazing about music is the beauty and energy found in its
-              many forms. It can be passionate, captivating, and awe-inspiring.
-              Listening to and creating music is always an adventure.
+              If you have a project that contains vocals/audio for podcasts,
+              Youtube content, shows, etc. I can help bring your sound to a
+              professional level.
             </p>
             <p className="xan-text">
-              No matter where you are in life. There will always be a place for
-              music and art.
+              If you have a project and are interested, get in touch!
             </p>
+            <div className="d-flex flex-center">
+              <Fade bottom>
+                <SmoothScrollButton
+                  name="Contact"
+                  color="white"
+                  href="/portfolio"
+                />
+              </Fade>
+            </div>
           </Col>
           <Col md="12" lg="6" className="center-items">
             <iframe

@@ -21,6 +21,10 @@ export default () => {
               many forms. It can be passionate, captivating, and awe-inspiring.
               Listening to and creating music is always an adventure.
             </p>
+            <p className="xan-text">
+              No matter where you are in life. There will always be a place for
+              music and art.
+            </p>
           </Col>
           <Col md="12" lg="6" className="center-items">
             <img src={XanAboutIMG} className="MyIMG" alt="" />
