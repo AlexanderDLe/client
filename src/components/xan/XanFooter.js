@@ -1,7 +1,7 @@
 import React from 'react';
 import FBicon from '../../img/FB Icon.png';
-import GHicon from '../../img/GH Icon.png';
-import LIicon from '../../img/LI Icon.png';
+import SCicon from '../../img/SC Icon.png';
+import Ticon from '../../img/T Icon.png';
 import IGicon from '../../img/IG Icon.png';
 import OpenAnchorTag from '../utility/OpenAnchorTag';
 
@@ -9,19 +9,19 @@ export default () => {
   return (
     <footer className="footer-xan center-items-horizontally">
       <OpenAnchorTag
+        img={SCicon}
+        tag="footer"
+        href="https://soundcloud.com/i-am-xan"
+      />
+      <OpenAnchorTag
         img={IGicon}
         tag="footer"
         href="https://www.instagram.com/xan.stagram/"
       />
       <OpenAnchorTag
-        img={LIicon}
+        img={Ticon}
         tag="footer"
-        href="https://www.linkedin.com/in/alexander-le-77a5bb160/"
-      />
-      <OpenAnchorTag
-        img={GHicon}
-        tag="footer"
-        href="https://github.com/AlexanderDLe"
+        href="https://twitter.com/XanOfTheLand"
       />
       <OpenAnchorTag
         img={FBicon}

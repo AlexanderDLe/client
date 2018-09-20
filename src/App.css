@@ -602,11 +602,13 @@ hr {
   font-family: Cedarville Cursive;
 }
 /* XAN MUSIC */
-#music {
+#music,
+#audio {
   background-color: var(--xan-red-black);
   position: relative;
   z-index: 1;
 }
+
 .musicHero {
   width: 100%;
   height: 50%;
@@ -634,6 +636,12 @@ hr {
   width: 90%;
   max-width: 800px;
   height: 450px;
+}
+/* XAN AUDIO */
+.audio-img {
+  height: auto;
+  width: 90%;
+  max-width: 600px;
 }
 /* XAN ABOUT */
 #xan-about {

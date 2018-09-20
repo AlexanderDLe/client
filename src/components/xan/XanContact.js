@@ -8,8 +8,8 @@ export default () => {
         <hr className="xan-text-light border-bottom border-light" />
 
         <p className="xan-text-light centered-text text-center">
-          Questions or comments? I'm open to collaboration, cool music projects,
-          etc. and I'd love to hear from you! Email me via{' '}
+          Questions or comments? I'm open to collaboration, cool projects, etc.
+          and I'd love to hear from you! Email me via{' '}
           <strong className="lead OpenSans">iAmXanOfficial@gmail.com </strong>{' '}
           or DM.
         </p>

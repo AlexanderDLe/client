@@ -52,28 +52,28 @@ export default class XanNav extends Component {
             </li>
             <NavAnchorLink
               name="Home"
-              href="/home"
+              href="/xan-home"
               onClick={this.toggleOnClick}
             />
 
             <NavAnchorLink
-              name="About"
-              href="/portfolio"
-              onClick={this.toggleOnClick}
-            />
-            <NavAnchorLink
               name="Music"
-              href="/about"
+              href="/music"
               onClick={this.toggleOnClick}
             />
             <NavAnchorLink
-              name="Services"
-              href="/contact"
+              name="Audio"
+              href="/audio"
+              onClick={this.toggleOnClick}
+            />
+            <NavAnchorLink
+              name="About"
+              href="/xan-about-down"
               onClick={this.toggleOnClick}
             />
             <NavAnchorLink
               name="Contact"
-              href="/contact"
+              href="/xan-contact"
               onClick={this.toggleOnClick}
             />
           </ul>

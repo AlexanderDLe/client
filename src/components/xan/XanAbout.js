@@ -13,8 +13,8 @@ export default () => {
             <hr className="hr-white" />
             <p className="xan-text">
               I've been producing music for about 7 years. As a fan of all kinds
-              of music - ranging from cinematic to electronic - I enjoy
-              exploring and experimenting with different genres.
+              of music (ranging from cinematic to electronic), I enjoy exploring
+              and experimenting with different genres.
             </p>
             <p className="xan-text">
               What is amazing about music is the beauty and energy found in its
@@ -22,7 +22,7 @@ export default () => {
               Listening to and creating music is always an adventure.
             </p>
             <p className="xan-text">
-              No matter where you are in life. There will always be a place for
+              No matter where you are in life, there will always be a place for
               music and art.
             </p>
           </Col>

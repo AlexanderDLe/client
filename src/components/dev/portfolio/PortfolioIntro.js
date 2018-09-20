@@ -21,15 +21,16 @@ export default () => {
         </p>
         <br />
         <p className="text-muted centered-text">
-          As mentioned, my current front end library of choice is React. I
-          really enjoy its component-based development methodology, overall
-          speed, flexibility, and developer ecosystem.
+          My current front end library of choice is React, as I really enjoy its
+          component-based development methodology, overall speed, flexibility,
+          and developer ecosystem - however, I open completely open to learning
+          new or different frameworks/libraries if necessary for the job.
         </p>
         <br />
         <p className="text-muted centered-text">
-          As for full-stack technologies, I am familiar with the MERN stack -
-          i.e. Node, Express, React, and MongoDB. I have created created Restful
-          APIs that allow users to securely communicate with servers and
+          As for back end/full-stack technologies, I am familiar with the MERN
+          stack - i.e. Node, Express, React, and MongoDB. I have created created
+          Restful APIs that allow users to securely communicate with servers and
           databases.
         </p>
       </Container>
