@@ -21,10 +21,12 @@ export default () => {
         </p>
         <br />
         <p className="text-muted centered-text">
-          My current front end library of choice is React, as I really enjoy its
-          component-based development methodology, overall speed, flexibility,
-          and developer ecosystem - however, I open completely open to learning
-          new or different frameworks/libraries if necessary for the job.
+          While my current front end library of choice is React as I really
+          enjoy its component-based development methodology, overall speed,
+          flexibility, and developer ecosystem - I open completely open to
+          learning new or different frameworks/libraries if necessary for the
+          job. My aim is to broaden my scope of knowledge and skills to improve
+          my overall ability as a developer.
         </p>
         <br />
         <p className="text-muted centered-text">
