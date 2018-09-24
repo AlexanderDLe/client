@@ -1,8 +1,8 @@
 # VVN Site github repository.
 
-![screenshot](https://user-images.githubusercontent.com/37781362/45939434-74733e80-bf87-11e8-9d92-5f4ffa399296.PNG)
+![xan site](https://user-images.githubusercontent.com/37781362/45939818-2ad82300-bf8a-11e8-99b0-497568251649.png)
 
-Current Build: http://xanofficial.com/vvn/
+Current Build: http://xanofficial.com/
 
 ### Build Tools:
 
