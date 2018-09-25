@@ -1,4 +1,4 @@
-# VVN Site github repository.
+# XAN Site github repository.
 
 ![xan site](https://user-images.githubusercontent.com/37781362/45939818-2ad82300-bf8a-11e8-99b0-497568251649.png)
 
@@ -14,18 +14,11 @@ Current Build: http://xanofficial.com/
 ### Features:
 
 - Fully responsive interface
+- Slide-in navigation
 - Fast due to being a React SPA
-- Dark stylish design catered to artist tastes.
-- Full musical catalogue
-- A stream/hub page containing all available platforms for streaming/downloads
-- Detailed about section written by artist
+- Project gallery with links to site and github.
 - Services pages outlining available offerings
 
 ### Development Notes:
-
-- Originally a contact page was created containing a contact form. This required a back-end that required a backend that utilized tools
-  such as Node, Express, MongoDB, Nodemailer, etc. However, uploading an application that utilizes a back end system such as this on a
-  platform such as Heroku requires a monthly fee (there is a free alternative however there is a slow start-up that the artist wanted to bypass). The Artist chose instead to forego the contact form and instead host the now backend-less
-  website on Github Pages for free (not officially up yet).
 
 - I am a huge fan of using SASS/SCSS - however, I encountered an issue when trying to combine it with my use of React. There is an official work-around utlizing SASS-Chokidar, however, it did not work for me thus I chose to use plain CSS in my React projects.
