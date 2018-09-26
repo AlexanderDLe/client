@@ -14,19 +14,19 @@ export default () => {
           Below are the various projects I've built.
         </p>
         <p className="text-muted centered-text">
-          I'm fluent in the latest versions of fundamental web technologies such
-          as HTML5, CSS3, and JavaScript. I utilize frameworks and libraries
-          such as Bootstrap 4, Sass, React & Redux, etc. to create quick single
-          page applications aligned with modern trends.
+          I'm fluent in fundamental web technologies such as HTML5, CSS3, and
+          JavaScript. I utilize front end frameworks and libraries such as
+          Bootstrap 4, Sass, React & Redux, etc. to create quick single page
+          applications aligned with modern trends.
         </p>
         <br />
         <p className="text-muted centered-text">
           While my current front end library of choice is React as I really
           enjoy its component-based development methodology, overall speed,
-          flexibility, and developer ecosystem - I open completely open to
-          learning new or different frameworks/libraries if necessary for the
-          job. My aim is to broaden my scope of knowledge and skills to improve
-          my overall ability as a developer.
+          flexibility, and developer ecosystem - I'm completely open to learning
+          new or different frameworks/libraries if necessary for the job. My aim
+          is to broaden my scope of knowledge and skills to improve my overall
+          ability as a developer.
         </p>
         <br />
         <p className="text-muted centered-text">

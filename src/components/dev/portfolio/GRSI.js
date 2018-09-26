@@ -11,7 +11,7 @@ export default () => {
       <Container>
         <Fade>
           <PortfolioGalleryImg img={GRSIimg} />
-          <div className="center-items portfolio-text">
+          <div className="center-items portfolio-text centered-text">
             <h1 className="OpenSans page-title text-center">GRSI</h1>
             <hr />
             <p className="lead text-align-left">

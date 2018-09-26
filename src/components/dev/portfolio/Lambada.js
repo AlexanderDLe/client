@@ -11,7 +11,7 @@ export default () => {
       <Container>
         <Fade>
           <PortfolioGalleryImg img={Lambadaimg} />
-          <div className="center-items portfolio-text">
+          <div className="center-items portfolio-text centered-text">
             <h1 className="OpenSans page-title text-center ">LAMBADA</h1>
             <hr />
             <p className="lead">A simplistic site for a sweet boba shop.</p>
@@ -23,7 +23,7 @@ export default () => {
             <div className="m-2 row">
               <Fade bottom>
                 <MyAnchorButton
-                  href={'https://github.com/AlexanderDLe/LambadaTea'}
+                  href={'http://lambadatea.gq'}
                   color={'black'}
                   name={'Website'}
                 />
