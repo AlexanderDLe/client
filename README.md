@@ -19,7 +19,7 @@ I opted for a simplistic design for my personal page, thus I decided to have a t
 
 ![portfolio white nav](https://user-images.githubusercontent.com/37781362/46114148-3d2ea880-c1a6-11e8-9818-8c11d9985c5f.PNG)
 
-Simple enough, a white icon works well in front of dark background. Problems arise, however, when you scroll further down and a white background is used. An easy solution is changing the color of the depending on the window.scrollY position. I use window.innerHeight because the only dark background I use is in the landing page and I set it's size to 100vh (100% of viewport height).
+A white icon works well in front of dark background. Problems arise, however, when you scroll further down and a white background is used. An easy solution is changing the color of the depending on the window.scrollY position. I also use window.innerHeight because the only dark background I use (in the developer section) is in the landing page and I set its size to 100vh (100% of viewport height).
 
 Result:
 
@@ -35,7 +35,7 @@ I'm also using a debounce function to create intervals (15ms in this case) as to
 
 ### Slide-in navigation and animated icon
 
-I wanted to implement a slide-in navigation and an animated icon here and they turned out pretty decent. I'm a fan of animation so I used a lot of CSS transitions.
+I wanted to implement a slide-in navigation and an animated icon here and they turned out pretty decent. I'm a fan of animation so I use a lot of CSS transitions.
 
 ![portfolio nav slide](https://user-images.githubusercontent.com/37781362/46115025-238f6000-c1aa-11e8-8835-ecfdb179b721.PNG)
 
