@@ -28,7 +28,7 @@ export default () => {
             <div className="m-2 row">
               <Fade bottom>
                 <MyAnchorButton
-                  href={'https://github.com/AlexanderDLe/GRSI'}
+                  href={'http://globalroadsealinginc.ga/'}
                   color={'black'}
                   name={'Website'}
                 />

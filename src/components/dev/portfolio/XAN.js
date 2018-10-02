@@ -26,7 +26,7 @@ export default () => {
               <Fade bottom>
                 <MyLinkButton to={'/artist'} color={'black'} name={'Website'} />
                 <MyAnchorButton
-                  href={'https://github.com/AlexanderDLe/XANTea'}
+                  href={'https://github.com/AlexanderDLe/client'}
                   color={'black'}
                   name={'Code'}
                 />
