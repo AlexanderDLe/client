@@ -22,7 +22,7 @@ export default () => {
               belonging to VVN. Responsive, detailed, and stylish - it perfectly
               suits her unique identity. Check it out.
             </p>
-            <div className="m-2 row">
+            <div className="m-2 row button-row">
               <Fade bottom>
                 <MyAnchorButton
                   href={'http://xanofficial.com/vvn/'}

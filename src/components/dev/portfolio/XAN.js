@@ -22,7 +22,7 @@ export default () => {
               My page for my musical alias, Xan. Features music, audio services,
               interests, and a bit of background.
             </p>
-            <div className="m-2 row">
+            <div className="m-2 row button-row">
               <Fade bottom>
                 <MyLinkButton to={'/artist'} color={'black'} name={'Website'} />
                 <MyAnchorButton

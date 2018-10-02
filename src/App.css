@@ -25,6 +25,7 @@
 /* GENERAL */
 body {
   background: black;
+  overflow-x: hidden;
 }
 :root {
   --darken: rgba(0, 0, 0, 0.6);
@@ -43,8 +44,7 @@ h1 {
   color: var(--black);
 }
 .full-page {
-  height: 100vh;
-  min-height: 700px;
+  min-height: 100vh;
   width: 100%;
 }
 .half-page {
@@ -90,6 +90,12 @@ hr {
   font-weight: bold;
   font-family: Raleway;
 }
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 3rem;
+  }
+}
+
 .centered-text {
   text-align: left;
   margin: 0 auto;
@@ -109,6 +115,11 @@ hr {
 }
 
 /* BUTTONS */
+@media (max-width: 472px) {
+  .button-row {
+    flex-direction: column;
+  }
+}
 .my-button {
   font-size: 1.3rem;
   width: 200px;
@@ -572,6 +583,7 @@ hr {
 }
 .xan-landing {
   background: url('img/Artist.jpeg') no-repeat center 0px;
+  height: 100vh;
 }
 .dark-xan-overlay {
   width: 100%;

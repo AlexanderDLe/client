@@ -25,7 +25,7 @@ export default () => {
               README.md in the github repository to learn more about the
               details.
             </p>
-            <div className="m-2 row">
+            <div className="m-2 row button-row">
               <Fade bottom>
                 <MyAnchorButton
                   href={'http://globalroadsealinginc.ga/'}

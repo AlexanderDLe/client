@@ -44,7 +44,6 @@ class XanHome extends Component {
   resizeWindow() {
     if (document.querySelector('.robert-frost-quote')) {
       let frostQuote = document.querySelector('.robert-frost-quote');
-      console.log(window.scrollY, frostQuote.offsetTop);
     }
   }
 

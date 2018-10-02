@@ -20,7 +20,7 @@ export default () => {
               carousel, information, and nice vibes. Fully responsive, quick,
               and easy to get the info you need - it's perfect for a boba shop.
             </p>
-            <div className="m-2 row">
+            <div className="m-2 row button-row">
               <Fade bottom>
                 <MyAnchorButton
                   href={'http://lambadatea.gq'}
