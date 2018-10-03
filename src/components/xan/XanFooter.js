@@ -26,7 +26,7 @@ export default () => {
       <OpenAnchorTag
         img={FBicon}
         tag="footer"
-        href="https://www.facebook.com/alexdla"
+        href="https://www.facebook.com/iamxanofficial/"
       />
     </footer>
   );

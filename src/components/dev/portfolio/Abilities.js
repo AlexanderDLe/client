@@ -11,7 +11,7 @@ export default () => {
             <i className="abilities-icon fas fa-mobile" />
             <h1 className="pb-2 pt-3 OpenSans">Responsive</h1>
             <p className="text-muted">
-              My designs are and adjust smoothly to any device.
+              My designs are flexible and adjust smoothly to any device.
             </p>
           </Fade>
         </Col>

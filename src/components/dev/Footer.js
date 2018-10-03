@@ -1,5 +1,4 @@
 import React from 'react';
-import FBicon from '../../img/FB Icon.png';
 import GHicon from '../../img/GH Icon.png';
 import LIicon from '../../img/LI Icon.png';
 import IGicon from '../../img/IG Icon.png';
@@ -22,11 +21,6 @@ export default () => {
         img={GHicon}
         tag="footer"
         href="https://github.com/AlexanderDLe"
-      />
-      <OpenAnchorTag
-        img={FBicon}
-        tag="footer"
-        href="https://www.facebook.com/alexdla"
       />
     </footer>
   );

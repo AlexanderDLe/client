@@ -25,7 +25,7 @@ export default () => {
             <div className="m-2 row button-row">
               <Fade bottom>
                 <MyAnchorButton
-                  href={'http://xanofficial.com/vvn/'}
+                  href={'https://vvnzquan.com/'}
                   color={'black'}
                   name={'Website'}
                 />
