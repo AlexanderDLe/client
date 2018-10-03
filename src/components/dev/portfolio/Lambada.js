@@ -28,7 +28,7 @@ export default () => {
                   name={'Website'}
                 />
                 <MyAnchorButton
-                  href={'https://github.com/AlexanderDLe/LambadaTea'}
+                  href={'https://alexanderdle.github.io/LambadaTea/'}
                   color={'black'}
                   name={'Code'}
                 />
