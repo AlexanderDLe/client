@@ -14,10 +14,8 @@ import IMBATMAN from '../../img/IMBATMAN.jpg';
 
 export default () => {
   return (
-    <div id="about" className="about-page page-padding">
+    <div id="about" className="about-page page-padding center-items">
       <Container className="">
-        {/* <h1 className="page-title text-center">ABOUT</h1>
-        <hr /> */}
         <Row className="py-3">
           <Col md="12" xl="6" className="center-items">
             <h1 className="page-title">ABOUT</h1>

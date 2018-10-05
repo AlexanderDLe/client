@@ -385,6 +385,7 @@ hr {
 /* ABOUT */
 .about-page {
   background: white;
+  min-height: 85vh;
 }
 .MyIMG {
   height: auto;
