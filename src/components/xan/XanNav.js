@@ -7,9 +7,11 @@ export default class XanNav extends Component {
   constructor() {
     super();
     this.state = {
-      toggle: false
+      toggle: false,
+      remove: ''
     };
     this.toggleOnClick = this.toggleOnClick.bind(this);
+    this.removeOnClick = this.removeOnClick.bind(this);
   }
 
   toggleOnClick() {
@@ -24,9 +26,12 @@ export default class XanNav extends Component {
       });
     }
   }
+  removeOnClick() {
+    this.setState({ remove: 'd-none' });
+  }
 
   render() {
-    const { toggle } = this.state;
+    const { toggle, remove } = this.state;
 
     return (
       <div className="">
@@ -38,14 +43,14 @@ export default class XanNav extends Component {
             <div className="hamburger" />
           </div>
         </Container>
-        <div className={`nav-modal xan-nav-modal ${toggle}`}>
+        <div className={`nav-modal xan-nav-modal ${toggle} ${remove}`}>
           <div className="xan-nav-lining" />
           <ul className={`nav-list xan-nav-list ${toggle}`}>
             <li className="nav-item mb-2">
               <NavLink
                 to="/"
                 activeClassName="active"
-                onClick={this.toggleOnClick}
+                onClick={this.removeOnClick}
               >
                 <h1>DEV</h1>
               </NavLink>

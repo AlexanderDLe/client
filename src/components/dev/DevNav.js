@@ -28,9 +28,11 @@ export default class DevNav extends Component {
     super();
     this.state = {
       toggle: false,
-      iconColor: ''
+      iconColor: '',
+      remove: ''
     };
     this.toggleOnClick = this.toggleOnClick.bind(this);
+    this.removeOnClick = this.removeOnClick.bind(this);
     this.handleScroll = debounce(this.handleScroll.bind(this), 15);
   }
 
@@ -63,9 +65,12 @@ export default class DevNav extends Component {
       });
     }
   }
+  removeOnClick() {
+    this.setState({ remove: 'd-none' });
+  }
 
   render() {
-    const { toggle, iconColor } = this.state;
+    const { toggle, iconColor, remove } = this.state;
 
     return (
       <div className="">
@@ -77,13 +82,13 @@ export default class DevNav extends Component {
             <div className="hamburger" />
           </div>
         </Container>
-        <div className={`dev-nav-modal nav-modal ${toggle}`}>
+        <div className={`dev-nav-modal nav-modal ${toggle} ${remove}`}>
           <ul className={`nav-list ${toggle}`}>
             <li className="nav-item mb-2">
               <NavLink
                 to="/artist"
                 activeClassName="active"
-                onClick={this.toggleOnClick}
+                onClick={this.removeOnClick}
               >
                 <img src={XanNavLogo} className="xan-nav-logo" alt="" />
               </NavLink>
