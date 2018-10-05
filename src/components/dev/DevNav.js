@@ -40,11 +40,11 @@ export default class DevNav extends Component {
   }
 
   handleScroll(e) {
-    if (window.scrollY > window.innerHeight - 35) {
+    if (window.scrollY > window.innerHeight * 1.1) {
       this.setState({
         iconColor: 'nav-black'
       });
-    } else if (window.scrollY < window.innerHeight - 35) {
+    } else if (window.scrollY < window.innerHeight * 1.1) {
       this.setState({
         iconColor: ''
       });
