@@ -25,6 +25,10 @@ class XanHome extends Component {
   }
 
   handleScroll() {
+    if (document.querySelector('.parallaxFX')) {
+      let parallaxFX = document.querySelector('.parallaxFX');
+      parallaxFX.style.backgroundPositionY = window.scrollY * 0.25 + 'px';
+    }
     if (document.querySelector('.robert-frost-quote')) {
       let frostQuote = document.querySelector('.robert-frost-quote');
       let frostTop = window.scrollY - frostQuote.offsetTop;
