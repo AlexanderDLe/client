@@ -35,7 +35,7 @@ export default class PortfolioGallery extends Component {
     const { gallerySelect } = this.state;
     return (
       <Container className="conditional-padding">
-        <div className="portfolio-gallery-select">
+        <div id="gallery-select" className="portfolio-gallery-select">
           {gallerySelect ? gallerySelect : 'Loading'}
         </div>
         <Row className="center-items-horizontally">
