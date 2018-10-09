@@ -328,7 +328,7 @@ hr {
 .landing-div {
   height: 15vh;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.15);
@@ -621,7 +621,7 @@ hr {
 .xan-landing-div {
   height: 15vh;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   background: rgba(12, 9, 9, 0.25);
