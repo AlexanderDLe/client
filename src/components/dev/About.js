@@ -10,7 +10,7 @@ import Express from '../../img/Express.png';
 import Node from '../../img/Node.png';
 import Redux from '../../img/Redux.png';
 import MongoDB from '../../img/MongoDB.png';
-import IMBATMAN from '../../img/IMBATMAN.jpg';
+import IMBATMAN from '../../img/Selfie.jpg';
 
 export default () => {
   return (
@@ -27,7 +27,8 @@ export default () => {
               <p className="text-muted">
                 I'm a lifelong hard working self-learner with a passion for
                 animation, intuitive UI/UX, and buildin' stuff. I'm always
-                willing and striving to learn new things to improve my skills.
+                willing and striving to experiment with new things to improve my
+                skills.
               </p>
               <p className="text-muted">
                 I would love to be in a challenging environment where I'm always
