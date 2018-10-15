@@ -16,9 +16,11 @@ Current Build: http://xanofficial.com/
 
 # Features
 
-## (Color) Responsive Navigation
+## Navigation
 
 I opted for a simplistic design for my personal page, thus I decided to have a toggle-able hamburger icon as the entry to my navigation.
+
+![capture](https://user-images.githubusercontent.com/37781362/46927899-c0485f00-cfec-11e8-9484-47b7c9f82558.PNG)
 
 ## Slide-in navigation and animated icon
 
