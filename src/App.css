@@ -271,7 +271,7 @@ hr {
   width: 40px;
 }
 .hamburger {
-  width: 30px;
+  width: 32px;
   height: 4px;
   background: rgb(0, 0, 0);
   position: absolute;
@@ -285,7 +285,7 @@ hr {
 .hamburger:after {
   content: '';
   position: absolute;
-  width: 30px;
+  width: 32px;
   height: 4px;
   background: rgb(0, 0, 0);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -293,7 +293,7 @@ hr {
   z-index: 100;
 }
 .xanburger {
-  width: 30px;
+  width: 32px;
   height: 4px;
   background: rgb(255, 255, 255);
   position: absolute;
@@ -307,7 +307,7 @@ hr {
 .xanburger:after {
   content: '';
   position: absolute;
-  width: 30px;
+  width: 32px;
   height: 4px;
   background: rgb(255, 255, 255);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
