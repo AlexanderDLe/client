@@ -40,7 +40,7 @@ export default class XanNav extends Component {
             onClick={this.toggleOnClick}
             className={`nav-icon xan-nav-icon ${toggle}`}
           >
-            <div className="hamburger" />
+            <div className="xanburger" />
           </div>
         </Container>
         <div className={`nav-modal xan-nav-modal ${toggle} ${remove}`}>

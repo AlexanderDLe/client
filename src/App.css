@@ -223,6 +223,26 @@ hr {
 .dev-nav-modal {
   background: #fff;
 }
+.dev-nav-icon {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: var(--trans-standard2);
+}
+.dev-nav-icon.active-X {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+  transition: var(--trans-standard2);
+}
+.xan-nav-icon {
+  background-color: rgb(14, 14, 14);
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: var(--trans-standard2);
+}
+.xan-nav-icon.active-X {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+  transition: var(--trans-standard2);
+}
 .nav-list {
   list-style: none;
   text-align: left;
@@ -253,7 +273,7 @@ hr {
 .hamburger {
   width: 35px;
   height: 4px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -267,15 +287,39 @@ hr {
   position: absolute;
   width: 35px;
   height: 4px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
   z-index: 100;
 }
-.hamburger:before {
+.xanburger {
+  width: 35px;
+  height: 4px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.xanburger:before,
+.xanburger:after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  z-index: 100;
+}
+.hamburger:before,
+.xanburger:before {
   top: 13px;
 }
-.hamburger:after {
+.hamburger:after,
+.xanburger:after {
   top: -13px;
 }
 .nav-icon {
@@ -287,13 +331,16 @@ hr {
   right: 10px;
   z-index: 6;
 }
-.nav-icon.active-X .hamburger {
+.nav-icon.active-X .hamburger,
+.nav-icon.active-X .xanburger {
   background: rgba(0, 0, 0, 0) !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
 }
-.nav-icon.active-X .hamburger:before {
+.nav-icon.active-X .hamburger:before,
+.nav-icon.active-X .xanburger:before {
   transform: rotate(225deg);
 }
+.nav-icon.active-X .xanburger:after,
 .nav-icon.active-X .hamburger:after {
   transform: rotate(-225deg);
 }
@@ -302,8 +349,8 @@ hr {
   top: 0;
   background: #000000;
 }
-.xan-nav-icon.active-X .hamburger:before,
-.xan-nav-icon.active-X .hamburger:after {
+.xan-nav-icon.active-X .xanburger:before,
+.xan-nav-icon.active-X .xanburger:after {
   top: 0;
 }
 

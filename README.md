@@ -20,24 +20,6 @@ Current Build: http://xanofficial.com/
 
 I opted for a simplistic design for my personal page, thus I decided to have a toggle-able hamburger icon as the entry to my navigation.
 
-![portfolio white nav](https://user-images.githubusercontent.com/37781362/46114148-3d2ea880-c1a6-11e8-9818-8c11d9985c5f.PNG)
-
-A white icon works well in front of dark background. Problems arise, however, when you scroll further down and a white background is used. An easy solution is changing the color of the depending on the window.scrollY position.
-
-The color-change will trigger when the scrollY position exceeds window.innerHeight. I chose to use window.innerHeight because the only dark background I use (in the developer section) is in the landing page and I set its size to 100vh (100% of viewport height).
-
-Result:
-
-![portfolio black nav](https://user-images.githubusercontent.com/37781362/46114467-a105a100-c1a7-11e8-9ebc-8f71ee100d05.PNG)
-
-Code:
-
-![portfolio nav code](https://user-images.githubusercontent.com/37781362/46114588-26895100-c1a8-11e8-9e2a-634f7b1f2956.PNG)
-
-This is one of the aspects I love about React. You can easily and dynamically change JSX/CSS (class) contents under different conditions using component state.
-
-I'm also using a debounce function to create intervals (15ms in this case) as to not overload the client and improve performance.
-
 ## Slide-in navigation and animated icon
 
 I wanted to implement a slide-in navigation and an animated icon here and they turned out pretty decent. I'm a fan of animation so I use a lot of CSS transitions.

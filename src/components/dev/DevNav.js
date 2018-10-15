@@ -7,50 +7,15 @@ import XanNavLogo from '../../img/Xan Resized.jpg';
 import NavAnchorLink from '../utility/NavAnchorLink';
 import OpenAnchorTag from '../utility/OpenAnchorTag';
 
-function debounce(func, wait, immediate) {
-  var timeout;
-  return function() {
-    var context = this,
-      args = arguments;
-    var later = function() {
-      timeout = null;
-      if (!immediate) func.apply(context, args);
-    };
-    var callNow = immediate && !timeout;
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-    if (callNow) func.apply(context, args);
-  };
-}
-
 export default class DevNav extends Component {
   constructor() {
     super();
     this.state = {
       toggle: false,
-      iconColor: '',
       remove: ''
     };
     this.toggleOnClick = this.toggleOnClick.bind(this);
     this.removeOnClick = this.removeOnClick.bind(this);
-    this.handleScroll = debounce(this.handleScroll.bind(this), 15);
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-    this.handleScroll();
-  }
-
-  handleScroll(e) {
-    if (window.scrollY > window.innerHeight * 1.1) {
-      this.setState({
-        iconColor: 'nav-black'
-      });
-    } else if (window.scrollY < window.innerHeight * 1.1) {
-      this.setState({
-        iconColor: ''
-      });
-    }
   }
 
   toggleOnClick() {
@@ -70,14 +35,14 @@ export default class DevNav extends Component {
   }
 
   render() {
-    const { toggle, iconColor, remove } = this.state;
+    const { toggle, remove } = this.state;
 
     return (
       <div className="">
         <Container className="nav-container">
           <div
             onClick={this.toggleOnClick}
-            className={`nav-icon dev-nav-icon ${toggle} ${iconColor}`}
+            className={`nav-icon dev-nav-icon ${toggle}`}
           >
             <div className="hamburger" />
           </div>
