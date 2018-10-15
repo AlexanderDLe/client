@@ -28,7 +28,7 @@ I wanted to implement a slide-in navigation and an animated icon here and they t
 
 ![portfolio nav slide](https://user-images.githubusercontent.com/37781362/46115025-238f6000-c1aa-11e8-8835-ecfdb179b721.PNG)
 
-This time, I use React state to implement the toggle functionality.
+I use React state to implement the toggle functionality.
 
 ![portfolio nav toggle](https://user-images.githubusercontent.com/37781362/46115410-9d741900-c1ab-11e8-9192-3ab6e9eb9021.png)
 
