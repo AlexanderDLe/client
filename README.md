@@ -18,7 +18,7 @@ Current Build: http://xanofficial.com/
 
 ## Navigation
 
-I opted for a simplistic design for my personal page, thus I decided to have a toggle-able hamburger icon as the entry to my navigation.
+I opted for a simplistic design for my personal page, thus I decided to have a toggle-able hamburger icon as the entry to my navigation. The nav icon color corresponds to each page's theme.
 
 ![capture](https://user-images.githubusercontent.com/37781362/46927899-c0485f00-cfec-11e8-9484-47b7c9f82558.PNG)
 
