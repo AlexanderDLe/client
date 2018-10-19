@@ -2,6 +2,7 @@ import React from 'react';
 import GHicon from '../../img/GH Icon.png';
 import LIicon from '../../img/LI Icon.png';
 import IGicon from '../../img/IG Icon.png';
+import CPicon from '../../img/CP Icon.png';
 import OpenAnchorTag from '../utility/OpenAnchorTag';
 
 export default () => {
@@ -21,6 +22,11 @@ export default () => {
         img={GHicon}
         tag="footer"
         href="https://github.com/AlexanderDLe"
+      />
+      <OpenAnchorTag
+        img={CPicon}
+        tag="footer"
+        href="https://codepen.io/AlexanderLeDev/"
       />
     </footer>
   );
