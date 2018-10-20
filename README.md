@@ -74,4 +74,4 @@ To work around the issue, I contain the logic within if statements. In essence, 
 
 - I am a huge fan of using SASS/SCSS - however, I encountered an issue when trying to combine it with my use of React. There is an official work-around utlizing SASS-Chokidar, however, it did not work for me thus I chose to use plain CSS in my React projects. Although I really miss the efficient import feature of SCSS (Vanilla CSS has an import feature but it is not as efficient since it makes several requests), CSS still offers the ability to assign variables so it's not too bad. That said, I plan on trying SCSS with React again in the future.
 
-- With the new React App V2 release, I will now be using SASS on future projects! React specifies that SASS will now automatically be integrated with each new create-react-app build.
+- With the new React App V2 release, I will now be using SASS on future projects! React specifies that SASS will now automatically be integrated with each new create-react-app build!
