@@ -612,6 +612,7 @@ hr {
   min-height: 40vh;
   width: 100%;
   background-color: rgb(34, 34, 34);
+  padding: 50px 0px;
 }
 /* FOOTER */
 .footer-portfolio {
@@ -813,6 +814,7 @@ hr {
   background: var(--xan-red-black);
   position: relative;
   z-index: 1;
+  padding: 50px 0px;
 }
 /* FOOTER */
 .footer-xan {
