@@ -2,7 +2,7 @@
 
 ![xan site](https://user-images.githubusercontent.com/37781362/45939818-2ad82300-bf8a-11e8-99b0-497568251649.png)
 
-Current Build: http://xanofficial.com/
+xanofficial.com is no longer active.
 
 ## Build Tools
 
